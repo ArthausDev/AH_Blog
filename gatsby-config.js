@@ -50,13 +50,13 @@ module.exports = {
         },
       },
     },
-    {
-      resolve: `gatsby-source-filesystem`,
-      options: {
-        path: `${__dirname}/src/blog`,
-        name: "markdownBlog",
-      },
-    },
+    // {
+    //   resolve: `gatsby-source-filesystem`,
+    //   options: {
+    //     path: `${__dirname}/src/blog`,
+    //     name: "markdownBlog",
+    //   },
+    // },
     // {
     //   resolve: `gatsby-plugin-netlify-identity`,
     //   options: {
