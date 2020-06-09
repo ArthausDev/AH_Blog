@@ -1,5 +1,6 @@
 ---
 title: How to Choose a Good Color Scheme For Your Website
+heroImg: /images/brand-color-palette-1.jpg
 content:
   - sectionHeading: ""
     sectionParagraphs:
