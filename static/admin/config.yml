@@ -7,10 +7,10 @@ public_folder: /images
 
 collections:
   - name: blog
-      label: Blog
-      folder: blog
-      create: true
-      fields:
+    label: Blog
+    folder: blog
+    create: true
+    fields:
       - { name: title, label: Title }
       - {
           name: content,
