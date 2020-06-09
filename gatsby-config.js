@@ -33,7 +33,7 @@ module.exports = {
     },
     {
       resolve: `gatsby-source-filesystem`,
-      options: { path: `${__dirname}/public/images/`, name: `imgFromNetlify` },
+      options: { path: `${__dirname}/public/images`, name: `imgFromNetlify` },
     },
     {
       resolve: "gatsby-plugin-html-attributes",
