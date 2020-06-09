@@ -1,0 +1,79 @@
+backend:
+  name: git-gateway
+  repo: ttngocthao/AH_Blog
+  branch: master
+media_folder: /public/images
+public_folder: /images
+
+collections:
+  - name: blog
+      label: Blog
+      folder: blog
+      create: true
+      fields:
+      - { name: title, label: Title }
+      - {
+          name: content,
+          label: Page Content,
+          widget: list,
+          fields:
+            [
+              {
+                name: sectionHeading,
+                label: Section Heading,
+                widget: string,
+                required: false,
+              },
+              {
+                name: sectionParagraphs,
+                label: Section Paragraphs,
+                widget: list,
+                required: false,
+                fields:
+                  [
+                    {
+                      name: paragraph,
+                      label: paragraph,
+                      widget: string,
+                      required: false,
+                    },
+                  ],
+              },
+              {
+                name: sectionImages,
+                label: Section Images,
+                widget: list,
+                required: false,
+                fields:
+                  [
+                    {
+                      name: image,
+                      label: image,
+                      widget: image,
+                      required: false,
+                    },
+                  ],
+              },
+              {
+                name: sectionLinks,
+                label: Section Links,
+                widget: list,
+                required: false,
+                fields:
+                  [
+                    {
+                      name: linkLabel,
+                      label: Link Label,
+                      widget: string,
+                      required: false,
+                    },
+                    {
+                      name: linkUrl,
+                      label: Link Url,
+                      widget: string,
+                      required: false,
+                    },
+                  ],
+              },
+            ],
+        }
