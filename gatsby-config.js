@@ -31,10 +31,10 @@ module.exports = {
       resolve: `gatsby-source-filesystem`,
       options: { path: `./src/images` },
     },
-    {
-      resolve: `gatsby-source-filesystem`,
-      options: { path: `${__dirname}/public/images/`, name: `imgFromNetlify` },
-    },
+    // {
+    //   resolve: `gatsby-source-filesystem`,
+    //   options: { path: `${__dirname}/public/images/`, name: `imgFromNetlify` },
+    // },
     {
       resolve: "gatsby-plugin-html-attributes",
       options: {
