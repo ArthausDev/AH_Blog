@@ -9,6 +9,9 @@ collections:
   - name: blog
     label: Blog
     folder: blog
+    path: "{{slug}}/index"
+    media_folder: ""
+    public_folder: ""
     create: true
     fields:
       - { name: title, label: Title }
