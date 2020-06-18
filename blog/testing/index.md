@@ -1,6 +1,6 @@
 ---
 title: Testing
-heroImg: arthaus-icon.png
+heroImg: 61nvsjwurol._ac_sx425_.jpg
 content:
   - sectionParagraphs:
       - paragraph: testing blog post
