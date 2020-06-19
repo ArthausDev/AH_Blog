@@ -1,0 +1,19 @@
+.hero {
+    max-width: 1200px;
+    margin: 0 auto;
+    max-height: 500px;
+    overflow: hidden;
+}
+
+.heroWrap {
+    position: relative;
+}
+
+.authorAvatar {
+    max-width: 50px;
+    margin-top: -25px;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 50%;
+    overflow: hidden;
+}

@@ -1,0 +1,135 @@
+@import '../../styles/variables.scss';
+
+.menuBtn {
+    width: 30px;
+    height: 22px;
+    position: relative;
+    transform: rotate(0deg);
+    transition: .5s cubic-bezier(1, 0, 0, 1);
+    cursor: pointer;
+
+    li {
+        position: absolute;
+        height: 4px;
+        width: 100%;
+        background: #66665d;
+        opacity: 1;
+        left: 0;
+        transform: rotate(0deg);
+        transition: .25s ease-in-out;
+    }
+
+    li:nth-child(1) {
+        top: 0;
+        transform-origin: left center;
+    }
+
+    li:nth-child(2) {
+        top: 8px;
+        transform-origin: left center;
+    }
+
+    li:nth-child(3) {
+        top: 16px;
+        transform-origin: left center;
+    }
+
+    @media only screen and (min-width:760px) {
+        display: none;
+    }
+}
+
+.menuBtn.menuOpened {
+    li:nth-child(1) {
+        transform: rotate(45deg);
+        top: 0;
+        left: 5px;
+    }
+
+    li:nth-child(2) {
+        width: 0%;
+        opacity: 0;
+    }
+
+    li:nth-child(3) {
+        transform: rotate(-45deg);
+        top: 21px;
+        left: 5px;
+    }
+}
+
+.headerContent {
+    padding: 20px 10px 10px;
+    width: 100%;
+    max-width: 1200px;
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 20;
+    background-color: white;
+    color: $lightGray;
+}
+
+.nav {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 10px;
+
+    @media only screen and (min-width:760px) {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+
+.navContent {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding-bottom: 10px;
+}
+
+.logoWrap {
+    max-width: 110px;
+}
+
+.menuList {
+    text-align: center;
+    height: 0;
+    opacity: 0;
+    transition: height .5s;
+    overflow: hidden;
+
+    @media only screen and (min-width:760px) {
+        height: auto;
+        opacity: 1;
+        display: flex;
+
+    }
+}
+
+.menuList.menuListShow {
+    height: auto;
+    opacity: 1;
+    z-index: 20;
+}
+
+.menuItem {
+    padding-top: 10px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: $fontReg;
+
+}
+
+.activePage {
+    border-bottom: 3px solid $mainOrange;
+    padding-bottom: 2.5px;
+}
+
+.menuItem:hover a {
+    border-bottom: 3px solid $mainOrange;
+    padding-bottom: 2.5px;
+}

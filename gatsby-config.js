@@ -44,9 +44,12 @@ module.exports = {
     {
       resolve: "gatsby-plugin-web-font-loader",
       options: {
+        // google: {
+        //   families: ["Lato", "Droid Serif"],
+        // },
         custom: {
-          families: ["Lato-Reg,Lato-Light,Lato-Black"],
-          urls: ["/fonts/fonts.css"],
+          families: ["Lato-Reg,Lato-Light,Lato-Black,Black"],
+          urls: [`/fonts/fonts.css`],
         },
       },
     },

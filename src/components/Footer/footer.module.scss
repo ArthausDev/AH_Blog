@@ -1,0 +1,70 @@
+@import '../../styles/variables.scss';
+
+.footerContainer {
+    position: relative;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: $darkGray;
+    border-top: 3px solid $mainOrange;
+    max-width: 1200px;
+    margin: 0 auto;
+    color: white;
+    font-family: $fontLight;
+
+    a {
+        color: white;
+    }
+
+    @media only screen and (min-width:760px) {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+.logo {
+    max-width: 50px;
+    margin-right: 20px;
+}
+
+.address {
+    p {
+        padding: 5px 0 0;
+    }
+}
+
+.leftColumn {
+    display: none;
+
+    @media only screen and (min-width:760px) {
+        display: flex;
+        font-size: 12px;
+
+    }
+}
+
+.rightColumn {
+    font-size: 10px;
+    text-align: center;
+
+
+    p {
+        padding: 10px;
+
+        @media only screen and (min-width:760px) {
+            padding: 5px 0;
+        }
+    }
+
+}
+
+.socialIconList {
+    max-width: 120px;
+    width: 100%;
+    margin: 0 auto;
+    padding-bottom: 10px;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+}

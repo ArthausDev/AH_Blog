@@ -17,8 +17,24 @@ collections:
       - { name: title, label: Title }
       - { name: heroImg, label: Hero Image, widget: image }
       - {
+          name: author,
+          label: Author Name,
+          widget: select,
+          options:
+            [
+              "Callum",
+              "Ed",
+              "Hasan",
+              "Matthew",
+              "Mike",
+              "Roxy",
+              "Stacey",
+              "Thao",
+            ],
+        }
+      - {
           name: content,
-          label: Page Content,
+          label: Section Content,
           widget: list,
           fields:
             [
@@ -54,6 +70,12 @@ collections:
                       name: image,
                       label: image,
                       widget: image,
+                      required: false,
+                    },
+                    {
+                      name: caption,
+                      label: image caption,
+                      widget: string,
                       required: false,
                     },
                   ],

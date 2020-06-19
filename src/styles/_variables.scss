@@ -1,0 +1,44 @@
+//colors
+$gray: #333;
+$whiteGray:#f6f6f6;
+$lightGray:#878679;
+$midGray:#6c6b5f;
+$darkGray: #42413a;
+$mainOrange:#f28b00;
+$mainGreen:#afb744;
+$mainBlue:#6a8aaa;
+$maroon: #8a5668;
+$burgendy:#8e5562;
+$green:#7fa000;
+$darkBlue:#365b7f;
+$teal:#62ae9f;
+$navy:#212040;
+$accentBurgendy:#e8dddf;
+$accentDarkBlue: #d7dee5;
+$accentGreen:#e5ebcf;
+$accentOrange: #fce7ca;
+$accentTeal:#deeeeb;
+$accentNavy:#d4d3db;
+
+
+$ColorList: $burgendy,
+$green,
+$darkBlue,
+$mainOrange,
+$teal,
+$navy;
+
+
+//defaul grid height/width
+$gridHeight: 90px;
+$gridwidth:100%;
+$gridHeightXL: 114px;
+
+//media break points
+$viewpoint1: 500px;
+$viewpoint2: 960px;
+
+//font style
+$fontReg:'Regular';
+$fontLight:'Light';
+$fontBold:'Black';

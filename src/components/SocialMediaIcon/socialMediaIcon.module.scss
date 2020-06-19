@@ -1,0 +1,19 @@
+@import '../../styles/variables.scss';
+
+// .socialIconWrap {
+//   width: 20px;
+//   height: 20px;
+// }
+
+.socialIconLink {
+    display: inline-block;
+    font-size: 20px;
+}
+
+.socialIcon {
+    transition: .3s ease-in;
+}
+
+.socialIcon:hover {
+    color: $mainOrange;
+}
