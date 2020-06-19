@@ -1,19 +1,97 @@
+@import "../../styles/variables";
+
 .hero {
-    max-width: 1200px;
-    margin: 0 auto;
-    max-height: 500px;
-    overflow: hidden;
+  max-width: 1200px;
+  margin: 0 auto;
+  max-height: 500px;
+  overflow: hidden;
 }
 
 .heroWrap {
-    position: relative;
+  position: relative;
 }
 
+$avatarWidth: 15%;
+
 .authorAvatar {
-    max-width: 50px;
-    margin-top: -25px;
-    margin-right: auto;
-    margin-left: auto;
-    border-radius: 50%;
-    overflow: hidden;
+  position: absolute;
+  max-width: 60px;
+  max-height: 60px;
+  bottom: $avatarWidth * (-0.5);
+  left: 50%;
+  transform: translateX(-50%);
+  // width: $avatarWidth;
+  z-index: 2;
+  border-radius: 50%;
+  overflow: hidden;
+
+  border: 2px solid white;
+
+  @media only screen and (min-width: 760px) {
+    max-width: 100px;
+    max-height: 100px;
+  }
+}
+
+.section {
+  max-width: 700px;
+  margin: 0 auto;
+}
+.sharepostSection {
+  text-transform: uppercase;
+  padding-top: 20px;
+  border-top: 2px solid #f4f4f4;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  min-width: 320px;
+}
+.sectionHeading {
+  font-weight: bold;
+}
+
+.sectionParagraph {
+  padding: 15px 0;
+}
+
+.sectionImage {
+  margin-top: 40px;
+  margin-bottom: 40px;
+
+  figcaption {
+    font-style: italic;
+    font-family: $fontLight;
+    padding: 10px 20px;
+  }
+}
+.shareSocialIcon {
+  display: inline-block;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 20px;
+  color: $lightGray;
+}
+
+.sectionLinksWrap {
+  padding: 20px 0;
+}
+
+.sectionLink {
+  border: 2px solid $mainOrange;
+  padding: 10px 15px;
+  margin-top: 4%;
+  border-radius: 5px;
+  display: inline-block;
+  text-decoration: none;
+  color: $mainOrange;
+  margin-right: 20px;
+
+  &::after {
+    content: "›";
+    padding-left: 5px;
+  }
+
+  &:hover {
+    color: $mainOrange !important;
+  }
 }

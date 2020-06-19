@@ -4,7 +4,8 @@ heroImg: 61nvsjwurol._ac_sx425_.jpg
 author: Thao
 content:
   - sectionParagraphs:
-      - paragraph: At vero eos et accusamus et iusto odio dignissimos ducimus qui
+      - paragraph:
+          At vero eos et accusamus et iusto odio dignissimos ducimus qui
           blanditiis praesentium voluptatum deleniti atque corrupti quos dolores
           et quas molestias excepturi sint occaecati cupiditate non provident,
           similique sunt in culpa qui officia deserunt mollitia animi, id est
@@ -17,7 +18,8 @@ content:
           Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis
           voluptatibus maiores alias consequatur aut perferendis doloribus
           asperiores repellat.
-      - paragraph: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+      - paragraph:
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
           minim veniam, quis nostrud exercitation ullamco laboris nisi ut
           aliquip ex ea commodo consequat. Duis aute irure dolor in
@@ -29,7 +31,8 @@ content:
         caption: "beautiful seascape "
   - sectionHeading: Heading 2
     sectionParagraphs:
-      - paragraph: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+      - paragraph:
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
           minim veniam, quis nostrud exercitation ullamco laboris nisi ut
           aliquip ex ea commodo consequat. Duis aute irure dolor in
@@ -39,9 +42,10 @@ content:
     sectionImages:
       - image: abtcf1c5850d6095fc431f234e7e394a0b9cadf882db3d3aa1a05727b1cb84cd361.jpg
         caption: "beautiful landscape "
-    sectionLinks: []
+
   - sectionParagraphs:
-      - paragraph: Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+      - paragraph:
+          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
           accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae
           ab illo inventore veritatis et quasi architecto beatae vitae dicta
           sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit

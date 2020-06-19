@@ -25,9 +25,9 @@ exports.createPages = async ({ graphql, actions }) => {
                 sectionHeading
                 sectionImages {
                   image {
-                    relativePath
                     publicURL
                   }
+                  caption
                 }
                 sectionLinks {
                   linkLabel
@@ -39,9 +39,9 @@ exports.createPages = async ({ graphql, actions }) => {
               }
               title
               heroImg {
-                relativePath
                 publicURL
               }
+              author
             }
             fields {
               sourceName
