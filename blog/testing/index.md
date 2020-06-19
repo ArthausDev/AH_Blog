@@ -1,6 +1,7 @@
 ---
-title: Testing Testing Testing Testing Testing Testing
+title: Testing Testing Testing
 heroImg: 61nvsjwurol._ac_sx425_.jpg
+author: Thao
 content:
   - sectionParagraphs:
       - paragraph: testing blog post
@@ -13,6 +14,7 @@ content:
           culpa qui officia deserunt mollit anim id est laborum.
     sectionImages:
       - image: 3840x2160.jpg
+        caption: "beautiful seascape "
   - sectionHeading: Heading 2
     sectionParagraphs:
       - paragraph: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -24,6 +26,7 @@ content:
           culpa qui officia deserunt mollit anim id est laborum.
     sectionImages:
       - image: abtcf1c5850d6095fc431f234e7e394a0b9cadf882db3d3aa1a05727b1cb84cd361.jpg
+        caption: "beautiful landscape "
     sectionLinks:
       - linkLabel: Visit our site
         linkUrl: https://www.thaotruong.uk
