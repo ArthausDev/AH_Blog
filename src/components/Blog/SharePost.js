@@ -1,4 +1,4 @@
-import React from "react"
+import React, { useEffect, useState } from "react"
 import {
   FacebookShareButton,
   LinkedinShareButton,
@@ -11,15 +11,18 @@ import {
 } from "@fortawesome/free-brands-svg-icons"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 
-import SocialMediaIcon from "../SocialMediaIcon/SocialMediaIcon"
 import styles from "./blog.module.scss"
 const SharePost = () => {
+  const [windowLocation, setWindowLocation] = useState(null)
+  useEffect(() => {
+    window && setWindowLocation(window.location.href)
+  })
   return (
     <div className={`${styles.section} ${styles.sharepostSection}`}>
       <p>SHARE THIS POST</p>
       <div className={styles.shareBtns}>
         <FacebookShareButton
-          url={window && window.location}
+          url={windowLocation && windowLocation}
           quote="Read this post"
         >
           <FontAwesomeIcon
@@ -29,7 +32,7 @@ const SharePost = () => {
           />
         </FacebookShareButton>
         <LinkedinShareButton
-          url={window && window.location}
+          url={windowLocation && windowLocation}
           quote="Read this post"
         >
           <FontAwesomeIcon
@@ -39,7 +42,7 @@ const SharePost = () => {
           />
         </LinkedinShareButton>
         <TwitterShareButton
-          url={window && window.location}
+          url={windowLocation && windowLocation}
           quote="Read this post"
         >
           <FontAwesomeIcon
