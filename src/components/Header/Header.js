@@ -15,13 +15,13 @@ const Header = () => {
     <header className={styles.headerContent}>
       <nav className={styles.nav}>
         <section className={styles.navContent}>
-          <Link to="/">
+          <a href="https://www.arthaus.co.uk/">
             <ImgCard
               src={Logo}
               alt="Arthaus logo"
               className={styles.logoWrap}
             />
-          </Link>
+          </a>
           <ul
             className={`${styles.menuBtn} ${menuOpened && styles.menuOpened}`}
             onClick={menuClickHandle}
@@ -55,7 +55,7 @@ const Header = () => {
           />
           <MenuItem
             activePage
-            url="https://www.arthaus.co.uk/toolkit/toolkit/html"
+            url="https://www.arthaus.co.uk/toolkit/toolkit.html"
             text="TOOLKIT"
           />
           <MenuItem

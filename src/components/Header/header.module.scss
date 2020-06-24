@@ -122,6 +122,10 @@
     padding-right: 10px;
     font-family: $fontReg;
 
+    a {
+        text-decoration: none;
+        color: #66665d;
+    }
 }
 
 .activePage {

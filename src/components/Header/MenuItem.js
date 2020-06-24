@@ -5,7 +5,11 @@ import styles from "./header.module.scss"
 function MenuItem({ url, text, activePage }) {
   return (
     <li className={`${styles.menuItem} `}>
-      <a className={`${activePage ? styles.activePage : null}`} src={url}>
+      <a
+        className={`${activePage ? styles.activePage : null}`}
+        href={url}
+        rel="noopener noreferrer"
+      >
         {text}
       </a>
     </li>
