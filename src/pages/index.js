@@ -23,6 +23,7 @@ export default function Home() {
           //  console.log(JSON.stringify(data))
           // console.log("filterData", filterData, JSON.stringify(filterData))
           fetch("https://api.sendgrid.com/v3/", {
+            mode: "no-cors",
             method: "POST",
             headers: {
               "Content-Type": "application/json",
@@ -30,8 +31,10 @@ export default function Home() {
             },
             body: JSON.stringify(filterData),
           })
-            .then(response => response.json())
-            .then(data => console.log(data))
+            .then(res => {
+              console.log(res)
+            })
+            .catch(error => console.log(error))
           resetForm()
         }}
       >
