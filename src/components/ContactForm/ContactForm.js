@@ -109,14 +109,14 @@ function ContactForm() {
                 console.log(response)
 
                 fetch(
-                  "https://arthausfunctions.azurewebsites.net/api/HttpTrigger1",
+                  "https://recaptchavalidation20200625124011.azurewebsites.net/api/ValidateReCaptcha",
                   {
                     mode: "no-cors",
                     method: "POST",
                     headers: {
                       "Content-Type": "application/json",
                     },
-                    body: JSON.stringify({ token: response }),
+                    body: JSON.stringify({ value: response }),
                   }
                 )
                   .then(res => {
