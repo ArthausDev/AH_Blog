@@ -25,16 +25,16 @@ function ContactForm() {
     <section className={`clear-float ${styles.background}`}>
       <Formik
         initialValues={{
-          fullName: "",
+          name: "",
           email: "",
           message: "",
         }}
         validate={values => {
           const errors = {}
-          if (!values.fullName) {
-            errors.fullName = "Required"
-          } else if (values.fullName.length <= 1) {
-            errors.fullName = "must be at least 2 characters"
+          if (!values.name) {
+            errors.name = "Required"
+          } else if (values.name.length <= 1) {
+            errors.name = "must be at least 2 characters"
           }
           if (!values.email) {
             errors.email = "Required"
@@ -51,27 +51,24 @@ function ContactForm() {
           return errors
         }}
         onSubmit={(data, { resetForm }) => {
-          if (token !== null) {
-            data.token = token
-            fetch(
-              "https://arthausfunctions.azurewebsites.net/api/HttpTrigger1",
-              {
-                mode: "no-cors",
-                method: "POST",
-                headers: {
-                  "Content-Type": "application/json",
-                },
-                body: JSON.stringify(data),
-              }
-            )
-              .then(res => {
-                // navigate("/thanks/")
-                console.log("sent", res)
-              })
-              .catch(error => alert(error))
-          } else {
-            alert("recaptcha needed")
-          }
+          data.token = token
+          console.log("data", data)
+          // fetch(
+          //   "https://arthausfunctions.azurewebsites.net/api/HttpTrigger1",
+          //   {
+          //     mode: "no-cors",
+          //     method: "POST",
+          //     headers: {
+          //       "Content-Type": "application/json",
+          //     },
+          //     body: JSON.stringify(data),
+          //   }
+          // )
+          //   .then(res => {
+          //     // navigate("/thanks/")
+          //     console.log("sent", res)
+          //   })
+          //   .catch(error => alert(error))
         }}
       >
         <Form className={styles.form} name="contact-form">
@@ -82,10 +79,10 @@ function ContactForm() {
           <div className={styles.flexWrap}>
             {" "}
             <div className={`${styles.inputWrap} ${styles.nameInputWrap}`}>
-              <label htmlFor="fullName">Your name</label>
-              <Field name="fullName" type="text" />
+              <label htmlFor="name">Your name</label>
+              <Field name="name" type="text" />
               <span className={styles.errorMessage}>
-                <ErrorMessage name="fullName" />
+                <ErrorMessage name="name" />
               </span>
             </div>
             <div className={`${styles.inputWrap} ${styles.emailInputWrap}`}>
@@ -113,6 +110,7 @@ function ContactForm() {
               theme="dark"
               verifyCallback={response => {
                 setToken(response)
+                console.log("do sth with the token, i believe", token)
               }}
               onloadCallback={() => {
                 console.log("done loading!")
