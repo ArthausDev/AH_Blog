@@ -109,7 +109,7 @@ function ContactForm() {
                 console.log(token)
 
                 fetch(
-                  `https://arthausfunctions.azurewebsites.net/recaptcha/${token}`,
+                  `https://arthausfunctions.azurewebsites.net/api/HttpTrigger1`,
                   {
                     mode: "no-cors",
                     method: "POST",
@@ -132,7 +132,6 @@ function ContactForm() {
 
           <br />
           <div className={styles.inputWrap}>
-            {" "}
             <button type="submit" className={styles.submitBtn}>
               Send Message
             </button>
