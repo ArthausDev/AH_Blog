@@ -52,23 +52,20 @@ function ContactForm() {
         }}
         onSubmit={(data, { resetForm }) => {
           data.token = token
-          console.log("data", data)
-          // fetch(
-          //   "https://arthausfunctions.azurewebsites.net/api/HttpTrigger1",
-          //   {
-          //     mode: "no-cors",
-          //     method: "POST",
-          //     headers: {
-          //       "Content-Type": "application/json",
-          //     },
-          //     body: JSON.stringify(data),
-          //   }
-          // )
-          //   .then(res => {
-          //     // navigate("/thanks/")
-          //     console.log("sent", res)
-          //   })
-          //   .catch(error => alert(error))
+          // console.log("data", data)
+          fetch("https://arthausfunctions.azurewebsites.net/api/HttpTrigger1", {
+            mode: "no-cors",
+            method: "POST",
+            headers: {
+              "Content-Type": "application/json",
+            },
+            body: JSON.stringify(data),
+          })
+            .then(res => {
+              // navigate("/thanks/")
+              console.log("sent", res)
+            })
+            .catch(error => alert(error))
         }}
       >
         <Form className={styles.form} name="contact-form">
@@ -109,6 +106,7 @@ function ContactForm() {
               render="explicit"
               theme="dark"
               verifyCallback={response => {
+                console.log(response)
                 setToken(response)
                 console.log("do sth with the token, i believe", token)
               }}
