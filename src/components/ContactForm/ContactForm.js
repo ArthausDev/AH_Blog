@@ -107,8 +107,24 @@ function ContactForm() {
               theme="dark"
               verifyCallback={response => {
                 console.log(response)
-                setToken(response)
-                console.log("do sth with the token, i believe", token)
+
+                fetch(
+                  "https://arthausfunctions.azurewebsites.net/api/HttpTrigger1",
+                  {
+                    mode: "no-cors",
+                    method: "POST",
+                    headers: {
+                      "Content-Type": "application/json",
+                    },
+                    body: JSON.stringify({ token: response }),
+                  }
+                )
+                  .then(res => {
+                    console.log("sent token", res)
+                  })
+                  .catch(error => alert(error))
+                // setToken(response)
+                // console.log("do sth with the token, i believe", token)
               }}
               onloadCallback={() => {
                 console.log("done loading!")
