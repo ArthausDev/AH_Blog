@@ -9,25 +9,28 @@ export default function Home() {
       <Formik
         initialValues={{ name: "", email: "", message: "" }}
         onSubmit={(data, { resetForm }) => {
-          data.from = { email: data.email, name: data.name }
-          data.rely_to = { email: process.env.SEND_TO_EMAIL, name: "Me" }
-          data.content = [{ type: "text/plain", value: data.message }]
+          data.from = { email: "think@arthaus.co.uk", name: "Arthaus website" }
+          data.rely_to = { email: data.email, name: "Me" }
+          data.content = [
+            {
+              type: "text/plain",
+              value: `From ${data.name} - ${data.email} \n Message: ${data.message}`,
+            },
+          ]
           data.personalizations = [
             {
-              to: [{ email: "ttngocthao_87@yahoo.com", name: "me" }],
+              to: [{ email: "thao.truong@arthaus.co.uk", name: "me" }],
               subject: "Mail from the website",
             },
           ]
-          const { content, from, personalizations, rely_to } = data
-          const filterData = { content, from, personalizations, rely_to }
-          //  console.log(JSON.stringify(data))
-          // console.log("filterData", filterData, JSON.stringify(filterData))
-          fetch("https://api.sendgrid.com/v3/", {
+          const { content, from, personalizations } = data
+          const filterData = { content, from, personalizations }
+
+          fetch("https://arthausfunctions.azurewebsites.net/send", {
             mode: "no-cors",
             method: "POST",
             headers: {
               "Content-Type": "application/json",
-              authorization: `Bearer ${process.env.SENDGRID_API_KEY}`,
             },
             body: JSON.stringify(filterData),
           })

@@ -1,0 +1,119 @@
+@import "../../styles/_variables";
+
+.inputWrap {
+  padding-top: 20px;
+
+  // $breakpoint-tablet: 700px;
+
+  // @media (min-width: $breakpoint-tablet) {}
+
+  max-width: 700px;
+  margin: 0 auto;
+
+  label {
+    color: $darkGray;
+  }
+
+  label,
+  input,
+  span,
+  textarea {
+    display: block;
+    margin-bottom: 5px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  input,
+  textarea {
+    padding: 10px 20px;
+    border-radius: 4px;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    max-width: 700px;
+  }
+
+  textarea {
+    min-height: 100px;
+  }
+}
+
+.errorMessage {
+  font-size: 14px;
+  color: $mainOrange;
+  padding-top: 2px;
+}
+
+.title {
+  font-size: 30px;
+  font-family: $fontBold;
+  color: $midGray;
+  text-align: center;
+  padding: 0 0 15px;
+  @media only screen and (min-width: 760px) {
+    font-size: 42px;
+  }
+}
+
+.text {
+  text-align: center;
+  padding: 10px 0;
+}
+
+.form {
+  padding: 30px 15px 40px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.background {
+  background-color: $whiteGray;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.recaptcha {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.submitBtn {
+  background-color: #f28b00;
+  color: #fff;
+  width: 100%;
+  padding: 10px;
+  border: none;
+  box-shadow: none;
+  max-width: 400px;
+  margin: 0 auto;
+  display: block;
+  cursor: pointer;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.flexWrap {
+  display: block;
+}
+
+@media only screen and (min-width: 760px) {
+  .submitBtn {
+    max-width: 200px;
+    margin-left: 0;
+  }
+
+  .nameInputWrap,
+  .emailInputWrap {
+    margin: 0;
+    width: 300px;
+  }
+
+  .flexWrap {
+    display: flex;
+    max-width: 700px;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
