@@ -105,11 +105,11 @@ function ContactForm() {
               sitekey="6Lco-KcZAAAAAMQJsq24NqoOceSVSnh_JCFPRSAm"
               render="explicit"
               theme="dark"
-              verifyCallback={response => {
-                console.log(response)
+              verifyCallback={token => {
+                console.log(token)
 
                 fetch(
-                  "https://arthausfunctions.azurewebsites.net/api/HttpTrigger1",
+                  `https://arthausfunctions.azurewebsites.net/recaptcha/${token}`,
                   {
                     mode: "no-cors",
                     method: "POST",
@@ -120,11 +120,9 @@ function ContactForm() {
                   }
                 )
                   .then(res => {
-                    console.log("sent token", res)
+                    console.log("res from front end", res)
                   })
                   .catch(error => alert(error))
-                // setToken(response)
-                // console.log("do sth with the token, i believe", token)
               }}
               onloadCallback={() => {
                 console.log("done loading!")
