@@ -14,6 +14,7 @@ content:
     sectionImages:
       - image: 61nvsjwurol._ac_sx425_.jpg
         caption: abcd
+    sectionHeading: heading 1
   - sectionParagraphs:
       - paragraph: Temporibus autem quibusdam et aut officiis debitis aut rerum
           necessitatibus saepe eveniet ut et voluptates repudiandae sint et
