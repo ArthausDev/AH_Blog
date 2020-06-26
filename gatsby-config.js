@@ -61,13 +61,13 @@ module.exports = {
         enableIdentityWidget: true,
       },
     },
-    {
-      resolve: `gatsby-source-filesystem`,
-      options: {
-        path: `${__dirname}/blog`,
-        name: "blogData",
-      },
-    },
+    // {
+    //   resolve: `gatsby-source-filesystem`,
+    //   options: {
+    //     path: `${__dirname}/blog`,
+    //     name: "blogData",
+    //   },
+    // },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
