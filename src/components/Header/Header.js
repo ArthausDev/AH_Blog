@@ -1,5 +1,4 @@
 import React, { useState } from "react"
-import { Link } from "gatsby"
 
 import Logo from "../../images/header/Logo.png"
 import styles from "./header.module.scss"

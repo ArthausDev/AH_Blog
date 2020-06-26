@@ -54,15 +54,22 @@ exports.createPages = async ({ graphql, actions }) => {
   `)
   //console.log("here", JSON.stringify(result, null, 4))
   result.data.allMarkdownRemark.edges.forEach(({ node }) => {
-    if (node.fields.sourceName === "blogData") {
+    if (
+      node.fields.sourceName === "blogData" ||
+      node.fields.sourceName === "blogPages"
+    ) {
       console.log("path for blog", node)
+      let slugPath = "/blog" + node.fields.slug
+      if (node.fields.sourceName === "blogPages") {
+        slugPath = node.fields.slug
+      }
       createPage({
-        path: "/blog" + node.fields.slug,
+        path: slugPath,
         component: path.resolve(`./src/components/Blog/BlogPageLayout.js`),
         context: {
           // Data passed to context is available
           // in page queries as GraphQL variables.
-          slug: "/blog" + node.fields.slug,
+
           blogItem: node,
         },
       })

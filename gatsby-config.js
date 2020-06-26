@@ -68,6 +68,13 @@ module.exports = {
         name: "blogData",
       },
     },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `src/pages`,
+        name: "blogPages",
+      },
+    },
     // {
     //   resolve: `gatsby-plugin-netlify-identity`,
     //   options: {

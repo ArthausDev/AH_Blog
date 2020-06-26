@@ -1,15 +1,9 @@
 import React, { useState, useEffect } from "react"
-import { navigate } from "gatsby"
+
 import { Formik, Field, Form, ErrorMessage } from "formik"
 import styles from "./contactForm.module.scss"
 import Recaptcha from "react-recaptcha"
 // import Button from "../Buttons/Button"
-
-const encode = data => {
-  return Object.keys(data)
-    .map(key => encodeURIComponent(key) + "=" + encodeURIComponent(data[key]))
-    .join("&")
-}
 
 function ContactForm() {
   const [token, setToken] = useState(null)
