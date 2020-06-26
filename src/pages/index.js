@@ -2,11 +2,10 @@ import React from "react"
 import { Form, Field, ErrorMessage, Formik } from "formik"
 
 export default function Home() {
-  // console.log("env", process.env.SEND_TO_EMAIL)
   return (
     <div>
-      <h1>Test sendGrid</h1>
-      <Formik
+      <h1>blog home page</h1>
+      {/* <Formik
         initialValues={{ name: "", email: "", message: "" }}
         onSubmit={(data, { resetForm }) => {
           data.from = { email: "think@arthaus.co.uk", name: "Arthaus website" }
@@ -48,6 +47,7 @@ export default function Home() {
           <button type="submit">Submit</button>
         </Form>
       </Formik>
+     */}
     </div>
   )
 }
