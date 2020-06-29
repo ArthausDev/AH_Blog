@@ -23,7 +23,7 @@ const SharePost = () => {
       <div className={styles.shareBtns}>
         <FacebookShareButton
           url={windowLocation && windowLocation}
-          quote="Read this post"
+          quote="Share post from Arthaus Blog"
         >
           <FontAwesomeIcon
             icon={faFacebookF}
