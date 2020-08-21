@@ -22,9 +22,13 @@ collections:
           widget: select,
           options:
             [
+              "Becky",
+              "Claire",
               "Callum",
               "Ed",
               "Hasan",
+              "MarkB",
+              "MarkL",
               "Matthew",
               "Mike",
               "Roxy",

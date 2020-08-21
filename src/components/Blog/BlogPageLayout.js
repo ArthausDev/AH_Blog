@@ -15,6 +15,10 @@ import MikeAvatar from "../../images/staffAvatars/Mike.png"
 import RoxyAvatar from "../../images/staffAvatars/Roxy.png"
 import StaceyAvatar from "../../images/staffAvatars/Stacey.png"
 import ThaoAvatar from "../../images/staffAvatars/Thao.png"
+import BeckyAvatar from "../../images/staffAvatars/Becky.png"
+import MarkLAvatar from "../../images/staffAvatars/Mark-L.png"
+import MarkBAvatar from "../../images/staffAvatars/Mark-B.png"
+import ClaireAvatar from "../../images/staffAvatars/Claire.png"
 
 const BlogPageLayout = ({ pageContext }) => {
   console.log("pageContext", pageContext)
@@ -26,12 +30,23 @@ const BlogPageLayout = ({ pageContext }) => {
     burgundy: "#8E5562",
     blue: "#337AB7",
     teal: "#62AE9F",
+    darkBlue: "#0e5368",
   }
   let avatarBkgColour
 
   let authorLastname
 
   switch (author) {
+    case "Becky":
+      avatarImgSrc = BeckyAvatar
+      avatarBkgColour = avatarBkgColourList.darkBlue
+      authorLastname = "Carter"
+      break
+    case "Claire":
+      avatarImgSrc = ClaireAvatar
+      avatarBkgColour = avatarBkgColourList.blue
+      authorLastname = "Watson"
+      break
     case "Callum":
       avatarImgSrc = CallumAvatar
       avatarBkgColour = avatarBkgColourList.blue
@@ -46,6 +61,16 @@ const BlogPageLayout = ({ pageContext }) => {
       avatarImgSrc = HasanAvatar
       avatarBkgColour = avatarBkgColourList.blue
       authorLastname = "Afzal"
+      break
+    case "MarkB":
+      avatarImgSrc = MarkBAvatar
+      avatarBkgColour = avatarBkgColourList.darkBlue
+      authorLastname = "Bowerman"
+      break
+    case "MarkL":
+      avatarImgSrc = MarkLAvatar
+      avatarBkgColour = avatarBkgColourList.darkBlue
+      authorLastname = "Luckett"
       break
     case "Matthew":
       avatarImgSrc = MatthewAvatar
@@ -96,7 +121,7 @@ const BlogPageLayout = ({ pageContext }) => {
           return <ContentSection item={item} key={index} />
         })}
 
-      <SharePost />
+      <SharePost pageTitle={title} />
     </Layout>
   )
 }
