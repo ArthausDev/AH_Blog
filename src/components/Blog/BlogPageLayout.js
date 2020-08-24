@@ -102,7 +102,10 @@ const BlogPageLayout = ({ pageContext }) => {
       avatarBkgColour = "white"
       authorLastname = "Arthaus"
   }
-  const authorFullName = `${author} ${authorLastname}`
+  let authorFullName = `${author} ${authorLastname}`
+  if (author.toUpperCase() === "MARKB" || author.toUpperCase() === "MARKL") {
+    authorFullName = `MARK ${authorLastname}`
+  }
   return (
     <Layout>
       <div className={styles.heroWrap}>
