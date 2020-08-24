@@ -1,7 +1,7 @@
 ---
 title: "Are Elephants and Hippos turning your meetings into a zoo? "
 heroImg: 3717501.jpg
-author: Mike
+author: MarkB
 content:
   - sectionParagraphs:
       - paragraph: We have long been aware of the elephant in the room – the obvious
