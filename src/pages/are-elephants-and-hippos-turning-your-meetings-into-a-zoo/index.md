@@ -1,6 +1,6 @@
 ---
 title: "Are Elephants and Hippos turning your meetings into a zoo? "
-heroImg: 3717501.jpg
+heroImg: hippollarge.png
 author: MarkB
 content:
   - sectionParagraphs:
