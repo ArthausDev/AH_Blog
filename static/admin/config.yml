@@ -61,6 +61,13 @@ collections:
                       widget: string,
                       required: false,
                     },
+                    {
+                      name: asteriskText,
+                      label: Asterisk text,
+                      widget: boolean,
+                      required: false,
+                      default: false,
+                    },
                   ],
               },
               {

@@ -2,13 +2,13 @@
 
 .footerContainer {
     position: relative;
-    padding-top: 40px;
-    padding-bottom: 40px;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-top: 22px;
+    padding-bottom: 14px;
+    padding-left: 16px;
+    padding-right: 21px;
     background-color: $darkGray;
     border-top: 3px solid $mainOrange;
-    max-width: 1200px;
+    max-width: 952px;
     margin: 0 auto;
     color: white;
     font-family: $fontLight;
@@ -20,6 +20,7 @@
     @media only screen and (min-width:760px) {
         display: flex;
         justify-content: space-between;
+        align-items: center;
     }
 }
 
@@ -29,9 +30,8 @@
 }
 
 .address {
-    p {
-        padding: 5px 0 0;
-    }
+    line-height: 1.45;
+   
 }
 
 .leftColumn {
@@ -53,7 +53,7 @@
         padding: 10px;
 
         @media only screen and (min-width:760px) {
-            padding: 5px 0;
+            padding: 2px 0;
         }
     }
 
@@ -62,8 +62,8 @@
 .socialIconList {
     max-width: 120px;
     width: 100%;
-    margin: 0 auto;
-    padding-bottom: 10px;
+    margin: 0 0 0 auto;
+  
     justify-content: space-between;
     align-items: center;
     display: flex;

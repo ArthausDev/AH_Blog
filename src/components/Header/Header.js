@@ -39,7 +39,7 @@ const Header = () => {
             menuOpened ? styles.menuListShow : ""
           }`}
         >
-          <MenuItem url="https://www.arthaus.co.uk/" text="HOME" />
+          {/* <MenuItem url="https://www.arthaus.co.uk/" text="HOME" /> */}
           <MenuItem
             url="https://www.arthaus.co.uk/about/about.html"
             text="ABOUT"

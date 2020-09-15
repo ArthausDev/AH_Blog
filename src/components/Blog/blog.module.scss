@@ -1,9 +1,9 @@
 @import "../../styles/variables";
 
 .hero {
-  max-width: 1200px;
+  max-width: 944px;
   margin: 0 auto;
-  max-height: 500px;
+  max-height: 392px;
   overflow: hidden;
 }
 
@@ -46,6 +46,7 @@ $avatarWidth: 15%;
   flex-wrap: wrap;
   min-width: 320px;
   margin-bottom: 30px;
+  align-items: center;
 }
 
 .sectionHeading {
@@ -53,7 +54,8 @@ $avatarWidth: 15%;
 }
 
 .shareBtns {
-  margin-left: 20px;
+  margin-left: 16px;
+  
 }
 
 .sectionParagraph {
@@ -73,8 +75,7 @@ $avatarWidth: 15%;
 
 .shareSocialIcon {
   display: inline-block;
-  padding-left: 10px;
-  padding-right: 10px;
+margin-right:16px;
   font-size: 20px;
   color: $lightGray;
 }
