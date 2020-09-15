@@ -19,7 +19,12 @@ const ContentSection = ({ item }) => {
       {/* For Section paragraph if exist */}
       {sectionParagraphs.length !== 0 &&
         sectionParagraphs.map((item, index) => (
-          <p className={styles.sectionParagraph} key={index}>
+          <p
+            className={`${styles.sectionParagraph} ${
+              item.asteriskText ? styles.asteriskText : ""
+            } `}
+            key={index}
+          >
             {item.paragraph}
           </p>
         ))}

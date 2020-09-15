@@ -35,6 +35,7 @@ exports.createPages = async ({ graphql, actions }) => {
                 }
                 sectionParagraphs {
                   paragraph
+                  asteriskText
                 }
               }
               title

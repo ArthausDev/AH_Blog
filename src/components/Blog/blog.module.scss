@@ -55,7 +55,6 @@ $avatarWidth: 15%;
 
 .shareBtns {
   margin-left: 16px;
-  
 }
 
 .sectionParagraph {
@@ -75,7 +74,7 @@ $avatarWidth: 15%;
 
 .shareSocialIcon {
   display: inline-block;
-margin-right:16px;
+  margin-right: 16px;
   font-size: 20px;
   color: $lightGray;
 }
@@ -102,4 +101,9 @@ margin-right:16px;
   &:hover {
     color: $mainOrange !important;
   }
+}
+
+.asteriskText {
+  font-size: 12px;
+  font-style: italic;
 }

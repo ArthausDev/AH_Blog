@@ -65,7 +65,7 @@ function Footer() {
 
         <p className="text--white text--center">
           <a
-          style={{fontSize:'12px'}}
+          style={{fontSize:'12px',textDecoration:'none'}}
             href="https://www.arthaus.co.uk/privacy-terms-conditions.html"
             target="_blank"
           >
