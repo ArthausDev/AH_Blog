@@ -1,4 +1,4 @@
-@import "../../styles/variables.scss";
+@import "../../styles/_variables.scss";
 
 .menuBtn {
   width: 30px;
@@ -69,9 +69,9 @@
   z-index: 20;
   background-color: white;
   color: $lightGray;
-     @media only screen and (min-width: 760px) {
-       background-color:transparent;
-     }
+  // @media only screen and (min-width: 760px) {
+  //   background-color: transparent;
+  // }
 }
 
 .nav {
@@ -149,84 +149,84 @@
   border-bottom: 3px solid $mainOrange;
   padding-bottom: 2.5px;
 }
-.insightsItem{
-  position:relative;
-  min-height:auto;
+.insightsItem {
+  // position: relative;
+  // min-height: auto;
 
-.insightsList{ 
+  .insightsList {
     max-width: 150px;
-    width:100%;
+    width: 100%;
     margin: 10px auto 0;
-    position:relative;
-     @media only screen and (min-width: 760px) {
-       position: absolute; 
-       background-color: $mainOrange;
-    left: 15px;
-    top:14px;
-    max-width: 160px;
-    width: 160px;
-    display:none;
-     }
-}
+    position: relative;
+    @media only screen and (min-width: 760px) {
+      position: absolute;
+      background-color: $mainOrange;
+      right: 15px;
+      top: 34px;
+      max-width: 160px;
+      width: 160px;
+      display: none;
+    }
+  }
 
-   @media only screen and (min-width: 760px) {  
-     min-height:250px;
-     &:hover .insightsList{display:block}
-     
-       
-     
+  @media only screen and (min-width: 760px) {
+    &:hover .insightsList {
+      display: block;
+    }
   }
 }
 
-.insightsListItem{  
+.insightsListItem {
   text-transform: uppercase;
-    padding-top: 5px ;
-    padding-bottom: 5px ;
-    padding-left: 20px;
-    font-size: 14px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 20px;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  border-bottom: 2px solid white;
+  transition: 0.3s;
+  cursor: pointer;
+  @media only screen and (min-width: 760px) {
+    padding-left: 16px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    &:hover {
+      background-color: $darkGray;
+    }
+  }
+  a {
+    text-decoration: none;
+    color: #66665d;
+    padding-bottom: 2.5px;
     display: flex;
     align-items: center;
-    border-bottom: 2px solid white;
-    transition: 0.3s;
-    cursor: pointer;
-     @media only screen and (min-width: 760px) {
-       padding-left:16px;
-       padding-top:10px;
-       padding-bottom:10px;
-       &:hover{
-         background-color:$darkGray;
-         }
-         }
-  a{
-    text-decoration:none;
-    color: #66665d;
-   padding-bottom:2.5px;
-   display: flex;
-    align-items: center;
     width: 100%;
-     @media only screen and (min-width: 760px) {
-       color:white;
-       font-size:16px;
+    @media only screen and (min-width: 760px) {
+      color: white;
+      font-size: 16px;
+    }
+  }
+  a:hover {
+    text-decoration: none;
+    border-bottom: none;
+    span {
+      border-bottom: 3px solid #f28b00;
+      padding-bottom: 0px;
+    }
+    @media only screen and (min-width: 760px) {
+      border-bottom: none;
+      span {
+        border-bottom: none;
       }
+    }
   }
-  a:hover{
-   text-decoration:none;
-   border-bottom:none;
-   span{
-     border-bottom: 3px solid #f28b00; 
-      padding-bottom:0px;
-  
-   }
-   @media only screen and (min-width: 760px) {border-bottom:none; span{border-bottom:none;}}
-   
-  }
-  .insightsItemIcon{
-    max-width:25px;
-    margin-right:12px;
+  .insightsItemIcon {
+    max-width: 25px;
+    margin-right: 12px;
   }
 
-  &:last-child{
-    border-bottom:none;
+  &:last-child {
+    border-bottom: none;
   }
 }
-
