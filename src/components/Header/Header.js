@@ -4,10 +4,10 @@ import Logo from "../../images/header/Logo.png"
 import styles from "./header.module.scss"
 import MenuItem from "./MenuItem"
 import ImgCard from "../ImgCard/ImgCard"
-import BlogIcon from '../../images/insights/icon_blog.png'
-import InspirationIcon from '../../images/insights/icon_inspiration.png'
-import SocialIcon from '../../images/insights/icon_socials.png'
-import AllIcon from '../../images/insights/icon_all.png'
+import BlogIcon from "../../images/insights/icon_blog.png"
+import InspirationIcon from "../../images/insights/icon_inspiration.png"
+import SocialIcon from "../../images/insights/icon_socials.png"
+import AllIcon from "../../images/insights/icon_all.png"
 const Header = () => {
   const [menuOpened, setMenuOpened] = useState(false)
 
@@ -62,52 +62,53 @@ const Header = () => {
             text="INSIGHTS"
             subList={true}
           >
-           <ul className={styles.insightsList}>
-                            <li
-                              className={styles.insightsListItem}
-                              posttype="blogPost"
-                            >
-                             <a
-                                href="https://www.arthaus.co.uk/toolKit/toolKit.html?postType=blogPost"
-                                > <img alt=''
-                                className={styles.insightsItemIcon}
-                                src={BlogIcon}
-                              /><span>BLOG</span></a>
-                            </li>
-                            <li
-                              className={styles.insightsListItem}
-                              posttype="inspiration"
-                            >
-                              <a
-                                href="/toolKit/toolKit.html?postType=inspiration"
-                                ><img alt=''
-                                style={{position: 'relative', left:' -3px'}}
-                                className={styles.insightsItemIcon}
-                                src={InspirationIcon}
-                              /><span>INSPIRATION</span></a >
-                            </li>
-                            <li
-                              className={styles.insightsListItem}
-                              posttype="socialPost"
-                            >
-                             <a
-                                href="https://www.arthaus.co.uk/toolKit/toolKit.html?postType=socialPost"
-                                > <img alt=''
-                                className={styles.insightsItemIcon}
-                                src={SocialIcon}
-                              /><span>SOCIAL</span></a>
-                            </li>
-                            <li
-                              className={styles.insightsListItem}
-                              posttype="allPost"
-                            >
-                             <a href="https://www.arthaus.co.uk/toolKit/toolKit.html?postType=all"
-                                > <img alt=''
-                                className={styles.insightsItemIcon}
-                                src={AllIcon}
-                              /><span>ALL</span></a>
-                            </li>
-                          </ul></MenuItem>
+            <ul className={styles.insightsList}>
+              <li className={styles.insightsListItem} posttype="blogPost">
+                <a href="https://www.arthaus.co.uk/toolKit/toolKit.html?postType=blogPost">
+                  {" "}
+                  <img
+                    alt=""
+                    className={styles.insightsItemIcon}
+                    src={BlogIcon}
+                  />
+                  <span>BLOG</span>
+                </a>
+              </li>
+              <li className={styles.insightsListItem} posttype="inspiration">
+                <a href="https://www.arthaus.co.uk/toolKit/toolKit.html?postType=inspiration">
+                  <img
+                    alt=""
+                    style={{ position: "relative", left: " -3px" }}
+                    className={styles.insightsItemIcon}
+                    src={InspirationIcon}
+                  />
+                  <span>INSPIRATION</span>
+                </a>
+              </li>
+              <li className={styles.insightsListItem} posttype="socialPost">
+                <a href="https://www.arthaus.co.uk/toolKit/toolKit.html?postType=socialPost">
+                  {" "}
+                  <img
+                    alt=""
+                    className={styles.insightsItemIcon}
+                    src={SocialIcon}
+                  />
+                  <span>SOCIAL</span>
+                </a>
+              </li>
+              <li className={styles.insightsListItem} posttype="allPost">
+                <a href="https://www.arthaus.co.uk/toolKit/toolKit.html?postType=all">
+                  {" "}
+                  <img
+                    alt=""
+                    className={styles.insightsItemIcon}
+                    src={AllIcon}
+                  />
+                  <span>ALL</span>
+                </a>
+              </li>
+            </ul>
+          </MenuItem>
           <MenuItem
             url="https://www.arthaus.co.uk/contact/contact.html"
             text="CONTACT"
