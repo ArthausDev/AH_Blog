@@ -68,6 +68,7 @@ function Footer() {
           style={{fontSize:'12px',textDecoration:'none'}}
             href="https://www.arthaus.co.uk/privacy-terms-conditions.html"
             target="_blank"
+            rel="noreferrer"
           >
             Privacy, terms &#38; conditions
           </a>

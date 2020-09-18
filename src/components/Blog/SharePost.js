@@ -16,7 +16,7 @@ const SharePost = () => {
   const [windowLocation, setWindowLocation] = useState(null)
   useEffect(() => {
     window && setWindowLocation(window.location.href)
-  })
+  },[])
   return (
     <div className={`${styles.section} ${styles.sharepostSection}`}>
       <p>SHARE THIS POST</p>

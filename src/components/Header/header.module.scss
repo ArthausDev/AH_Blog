@@ -69,6 +69,9 @@
   z-index: 20;
   background-color: white;
   color: $lightGray;
+     @media only screen and (min-width: 760px) {
+       background-color:transparent;
+     }
 }
 
 .nav {
@@ -79,7 +82,7 @@
   @media only screen and (min-width: 760px) {
     display: flex;
     justify-content: space-between;
-    //align-items: center;
+    align-items: flex-start;
   }
 }
 
@@ -115,23 +118,115 @@
 }
 
 .menuItem {
+  font-size: 14px;
   padding-left: 16px;
   padding-right: 0px;
-  padding-top: 2px;
+  padding-top: 7px;
+  padding-bottom: 7px;
   font-family: $fontLight;
 
   a {
     text-decoration: none;
     color: #66665d;
   }
+
+  @media only screen and (min-width: 760px) {
+    font-size: 16px;
+    padding-top: 2px;
+  }
 }
 
 .activePage {
   border-bottom: 3px solid $mainOrange;
-  padding-bottom: 2.5px;
+  padding-bottom: 1px;
+
+  @media only screen and (min-width: 760px) {
+    padding-bottom: 2.5px;
+  }
 }
 
-.menuItem:hover a {
+.menuItem a:hover {
   border-bottom: 3px solid $mainOrange;
   padding-bottom: 2.5px;
 }
+.insightsItem{
+  position:relative;
+  min-height:auto;
+
+.insightsList{ 
+    max-width: 150px;
+    width:100%;
+    margin: 10px auto 0;
+    position:relative;
+     @media only screen and (min-width: 760px) {
+       position: absolute; 
+       background-color: $mainOrange;
+    left: 15px;
+    top:14px;
+    max-width: 160px;
+    width: 160px;
+    display:none;
+     }
+}
+
+   @media only screen and (min-width: 760px) {  
+     min-height:250px;
+     &:hover .insightsList{display:block}
+     
+       
+     
+  }
+}
+
+.insightsListItem{  
+  text-transform: uppercase;
+    padding-top: 5px ;
+    padding-bottom: 5px ;
+    padding-left: 20px;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid white;
+    transition: 0.3s;
+    cursor: pointer;
+     @media only screen and (min-width: 760px) {
+       padding-left:16px;
+       padding-top:10px;
+       padding-bottom:10px;
+       &:hover{
+         background-color:$darkGray;
+         }
+         }
+  a{
+    text-decoration:none;
+    color: #66665d;
+   padding-bottom:2.5px;
+   display: flex;
+    align-items: center;
+    width: 100%;
+     @media only screen and (min-width: 760px) {
+       color:white;
+       font-size:16px;
+      }
+  }
+  a:hover{
+   text-decoration:none;
+   border-bottom:none;
+   span{
+     border-bottom: 3px solid #f28b00; 
+      padding-bottom:0px;
+  
+   }
+   @media only screen and (min-width: 760px) {border-bottom:none; span{border-bottom:none;}}
+   
+  }
+  .insightsItemIcon{
+    max-width:25px;
+    margin-right:12px;
+  }
+
+  &:last-child{
+    border-bottom:none;
+  }
+}
+
