@@ -65,7 +65,6 @@ const Header = () => {
             <ul className={styles.insightsList}>
               <li className={styles.insightsListItem} posttype="blogPost">
                 <a href="https://www.arthaus.co.uk/insights/insights.html?postType=blogPost">
-                  {" "}
                   <img
                     alt=""
                     className={styles.insightsItemIcon}
