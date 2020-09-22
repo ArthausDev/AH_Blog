@@ -74,6 +74,7 @@
   margin-right: 16px;
   font-size: 20px;
   color: #878679;
+  position: relative;
 }
 
 .sectionLinksWrap {
@@ -105,6 +106,16 @@
   font-style: italic;
 }
 
-.smallerIcon {
+.fbIcon {
   font-size: 18px;
+  top: -3px;
+}
+
+.linkedInIcon {
+  top: -1px;
+  font-size: 22px;
+}
+
+.twitterIcon {
+  top: -1px;
 }

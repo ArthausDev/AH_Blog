@@ -28,7 +28,7 @@ const SharePost = () => {
           <FontAwesomeIcon
             icon={faFacebookF}
             color="#42413a"
-            className={`${styles.shareSocialIcon} ${styles.smallerIcon}`}
+            className={`${styles.shareSocialIcon} ${styles.fbIcon}`}
           />
         </FacebookShareButton>
         <LinkedinShareButton
@@ -38,7 +38,7 @@ const SharePost = () => {
           <FontAwesomeIcon
             icon={faLinkedinIn}
             color="#42413a"
-            className={styles.shareSocialIcon}
+            className={`${styles.shareSocialIcon} ${styles.linkedInIcon}`}
           />
         </LinkedinShareButton>
         <TwitterShareButton
@@ -48,7 +48,7 @@ const SharePost = () => {
           <FontAwesomeIcon
             icon={faTwitter}
             color="#42413a"
-            className={styles.shareSocialIcon}
+            className={`${styles.shareSocialIcon} ${styles.twitterIcon}`}
           />
         </TwitterShareButton>
       </div>
