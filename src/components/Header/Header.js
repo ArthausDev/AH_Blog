@@ -58,13 +58,13 @@ const Header = () => {
           />
           <MenuItem
             activePage
-            url="https://www.arthaus.co.uk/toolkit/toolkit.html"
+            url="https://www.arthaus.co.uk/insights/insights.html"
             text="INSIGHTS"
             subList={true}
           >
             <ul className={styles.insightsList}>
               <li className={styles.insightsListItem} posttype="blogPost">
-                <a href="https://www.arthaus.co.uk/toolKit/toolKit.html?postType=blogPost">
+                <a href="https://www.arthaus.co.uk/insights/insights.html?postType=blogPost">
                   {" "}
                   <img
                     alt=""
@@ -75,7 +75,7 @@ const Header = () => {
                 </a>
               </li>
               <li className={styles.insightsListItem} posttype="inspiration">
-                <a href="https://www.arthaus.co.uk/toolKit/toolKit.html?postType=inspiration">
+                <a href="https://www.arthaus.co.uk/insights/insights.html?postType=inspiration">
                   <img
                     alt=""
                     style={{ position: "relative", left: " -3px" }}
@@ -86,7 +86,7 @@ const Header = () => {
                 </a>
               </li>
               <li className={styles.insightsListItem} posttype="socialPost">
-                <a href="https://www.arthaus.co.uk/toolKit/toolKit.html?postType=socialPost">
+                <a href="https://www.arthaus.co.uk/insights/insights.html?postType=socialPost">
                   {" "}
                   <img
                     alt=""
@@ -97,7 +97,7 @@ const Header = () => {
                 </a>
               </li>
               <li className={styles.insightsListItem} posttype="allPost">
-                <a href="https://www.arthaus.co.uk/toolKit/toolKit.html?postType=all">
+                <a href="https://www.arthaus.co.uk/insights/insights.html?postType=all">
                   {" "}
                   <img
                     alt=""
