@@ -55,7 +55,6 @@ function Footer() {
         </div>
       </div>
       <div className={styles.rightColumn}>
-        
         <ul className={socialIconList}>
           <li>
             <a
@@ -68,7 +67,7 @@ function Footer() {
           <li>
             <a
               className={`${socialIconItem} ${linkedInIcon}`}
-              href="https://www.instagram.com/arthaus_design/"
+              href="https://www.linkedin.com/company/arthaus-visual-communications-"
               target="_blank"
               rel="noopener noreferrer"
             ></a>
@@ -76,7 +75,7 @@ function Footer() {
           <li>
             <a
               className={`${socialIconItem} ${twitterIcon}`}
-              href="https://www.instagram.com/arthaus_design/"
+              href="https://twitter.com/arthaus"
               target="_blank"
               rel="noopener noreferrer"
             ></a>
@@ -84,7 +83,7 @@ function Footer() {
           <li>
             <a
               className={`${socialIconItem} ${facebookIcon}`}
-              href="https://www.instagram.com/arthaus_design/"
+              href="https://www.facebook.com/ArtHaus.design/"
               target="_blank"
               rel="noopener noreferrer"
             ></a>
