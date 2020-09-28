@@ -205,6 +205,10 @@
     &:hover {
       background-color: $darkGray;
     }
+
+    span {
+      font-size: 13px;
+    }
   }
 
   a {
@@ -240,7 +244,7 @@
   }
 
   .insightsItemIcon {
-    max-width: 25px;
+    max-width: 20px;
     margin-right: 10px;
   }
 

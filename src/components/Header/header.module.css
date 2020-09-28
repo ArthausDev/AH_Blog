@@ -204,6 +204,9 @@
   .insightsListItem:hover {
     background-color: #42413a;
   }
+  .insightsListItem span {
+    font-size: 13px;
+  }
 }
 
 .insightsListItem a {
@@ -242,7 +245,7 @@
 }
 
 .insightsListItem .insightsItemIcon {
-  max-width: 25px;
+  max-width: 20px;
   margin-right: 10px;
 }
 
