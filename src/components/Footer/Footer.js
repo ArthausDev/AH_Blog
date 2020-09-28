@@ -73,7 +73,7 @@ function Footer() {
             Privacy, terms &#38; conditions
           </a>
         </p>
-        <p className="text--white text--center text--xsmall">
+        <p className={`${styles.textXsmall}`}>
           &#169; Copyright Arthaus {new Date().getFullYear()}
         </p>
       </div>

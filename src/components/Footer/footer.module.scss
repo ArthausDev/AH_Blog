@@ -2,8 +2,8 @@
 
 .footerContainer {
   position: relative;
-  padding-top: 22px;
-  padding-bottom: 14px;
+  padding-top: 16px;
+  padding-bottom: 16px;
   padding-left: 16px;
   padding-right: 21px;
   background-color: $darkGray;
@@ -25,12 +25,15 @@
 }
 
 .logo {
-  max-width: 50px;
-  margin-right: 20px;
+  max-width: 48px;
+  margin-right: 16px;
 }
 
 .address {
   line-height: 1.45;
+  p{
+    margin-bottom:2px;
+  }
 }
 
 .leftColumn {
@@ -51,6 +54,7 @@
 
     @media only screen and (min-width: 760px) {
       padding: 2px 0;
+      text-align: right;
     }
   }
 }
@@ -63,4 +67,7 @@
   justify-content: space-between;
   align-items: center;
   display: flex;
+}
+.textXsmall{
+  font-size:8.8px;
 }

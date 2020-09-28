@@ -1,11 +1,50 @@
-@import './reset';
-@import './variables';
+@import "./_reset";
+@import "./_variables";
 
 html {
-    font-size: 16px;
-    font-family: "Lato-Reg", sans-serif;
-    line-height: 1.2 !important;
-    box-sizing: border-box;
-    font-weight: 300;
-    color: $lightGray;
+  font-size: 16px;
+  font-family: "LatoWeb", sans-serif;
+  line-height: 1.42857143 !important;
+  box-sizing: border-box;
+  font-weight: 400;
+  color: $lightGray;
+  
+}
+
+/* Webfont: Lato-Regular */
+@font-face {
+  font-family: "LatoWeb";
+ 
+  /* IE9 Compat Modes */
+  src: url("../../static/fonts/Lato-Regular.woff2") format("woff2"),
+    url("../../static/fonts/Lato-Regular.woff") format("woff"),
+    url("../../static/fonts/Lato-Regular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+/* Webfont: Lato-Light */
+@font-face {
+  font-family: "LatoWebLight";
+  src: url("../../static/fonts/Lato-Light.eot");
+  /* IE9 Compat Modes */
+  src: url("../../static/fonts/Lato-Light.eot?#iefix") format("embedded-opentype"),
+    url("../../static/fonts/Lato-Light.woff2") format("woff2"),
+    url("../../static/fonts/Lato-Light.woff") format("woff"),
+    url("../../static/fonts/Lato-Light.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+/* Webfont: Lato-Black */
+@font-face {
+  font-family: "LatoWebBlack";
+  src: url("../../static/fonts/Lato-Black.eot");
+  /* IE9 Compat Modes */
+  src: url("../../static/fonts/Lato-Black.eot?#iefix") format("embedded-opentype"),
+    url("../../static/fonts/Lato-Black.woff2") format("woff2"),
+    url("../../static/fonts/Lato-Black.woff") format("woff"),
+    url("../../static/fonts/Lato-Black.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
 }

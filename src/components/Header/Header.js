@@ -86,7 +86,6 @@ const Header = () => {
               </li>
               <li className={styles.insightsListItem} posttype="socialPost">
                 <a href="https://www.arthaus.co.uk/insights/insights.html?postType=socialPost">
-                  {" "}
                   <img
                     alt=""
                     className={styles.insightsItemIcon}
@@ -97,7 +96,6 @@ const Header = () => {
               </li>
               <li className={styles.insightsListItem} posttype="allPost">
                 <a href="https://www.arthaus.co.uk/insights/insights.html?postType=all">
-                  {" "}
                   <img
                     alt=""
                     className={styles.insightsItemIcon}
@@ -107,6 +105,7 @@ const Header = () => {
                 </a>
               </li>
             </ul>
+          
           </MenuItem>
           <MenuItem
             url="https://www.arthaus.co.uk/contact/contact.html"

@@ -38,23 +38,30 @@ module.exports = {
     //   options: { path: `${__dirname}/public/images`, name: `imgFromNetlify` },
     // },
     {
+      resolve: "gatsby-source-filesystem",
+      options: {
+        name: "fonts",
+        path: `${__dirname}/src/styles/`,
+      },
+    },
+    {
       resolve: "gatsby-plugin-html-attributes",
       options: {
         lang: "en",
       },
     },
-    {
-      resolve: "gatsby-plugin-web-font-loader",
-      options: {
-        // google: {
-        //   families: ["Lato", "Droid Serif"],
-        // },
-        custom: {
-          families: ["Lato-Reg,Lato-Light,Lato-Black,Black"],
-          urls: [`/fonts/fonts.css`],
-        },
-      },
-    },
+    // {
+    //   resolve: "gatsby-plugin-web-font-loader",
+    //   options: {
+    //     // google: {
+    //     //   families: ["Lato", "Droid Serif"],
+    //     // },
+    //     custom: {
+    //       families: ["Lato-Reg,Lato-Light,Lato-Black,Black"],
+    //       urls: [`/fonts/fonts.css`],
+    //     },
+    //   },
+    // },
     {
       resolve: `gatsby-plugin-netlify-cms`,
       options: {
