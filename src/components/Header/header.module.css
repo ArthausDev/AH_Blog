@@ -124,14 +124,14 @@
   padding-top: 7px;
   padding-bottom: 7px;
   font-family: "LatoWebLight";
-  font-weight: 700px;
+  font-weight: 700;
 }
 
 .menuItem a {
   text-decoration: none;
   color: #66665d;
   font-family: "LatoWebLight";
-  font-weight: 700px;
+  font-weight: 700;
 }
 
 @media only screen and (min-width: 760px) {

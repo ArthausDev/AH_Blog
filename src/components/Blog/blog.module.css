@@ -1,8 +1,6 @@
-@import "../../styles/_variables.scss";
-
+@charset "UTF-8";
 .hero {
   margin: 0 auto;
-
   overflow: hidden;
 }
 
@@ -10,23 +8,21 @@
   position: relative;
 }
 
-$avatarWidth: 15%;
-
 .authorAvatar {
   position: absolute;
   max-width: 60px;
   max-height: 60px;
-  bottom: $avatarWidth * (-0.5);
+  bottom: -7.5%;
   left: 50%;
   transform: translateX(-50%);
-  // width: $avatarWidth;
   z-index: 2;
   border-radius: 50%;
   overflow: hidden;
-
   border: 2px solid white;
+}
 
-  @media only screen and (min-width: 760px) {
+@media only screen and (min-width: 760px) {
+  .authorAvatar {
     max-width: 100px;
     max-height: 100px;
   }
@@ -63,19 +59,19 @@ $avatarWidth: 15%;
 .sectionImage {
   margin-top: 40px;
   margin-bottom: 40px;
+}
 
-  figcaption {
-    font-style: italic;
-    font-family: $fontLight;
-    padding: 10px 20px;
-  }
+.sectionImage figcaption {
+  font-style: italic;
+  font-family: "LatoWebLight";
+  padding: 10px 20px;
 }
 
 .shareSocialIcon {
   display: inline-block;
   margin-right: 16px;
   font-size: 20px;
-  color: $lightGray;
+  color: #878679;
   position: relative;
 }
 
@@ -84,23 +80,23 @@ $avatarWidth: 15%;
 }
 
 .sectionLink {
-  border: 2px solid $mainOrange;
+  border: 2px solid #f28b00;
   padding: 10px 15px;
   margin-top: 4%;
   border-radius: 5px;
   display: inline-block;
   text-decoration: none;
-  color: $mainOrange;
+  color: #f28b00;
   margin-right: 20px;
+}
 
-  &::after {
-    content: "›";
-    padding-left: 5px;
-  }
+.sectionLink::after {
+  content: "›";
+  padding-left: 5px;
+}
 
-  &:hover {
-    color: $mainOrange !important;
-  }
+.sectionLink:hover {
+  color: #f28b00 !important;
 }
 
 .asteriskText {
