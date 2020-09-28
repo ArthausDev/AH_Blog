@@ -1,10 +1,3 @@
-@import "../../styles/_variables.scss";
-
-// .socialIconWrap {
-//   width: 20px;
-//   height: 20px;
-// }
-
 .socialIconLink {
   display: inline-block;
   font-size: 23.9px;
@@ -15,5 +8,5 @@
 }
 
 .socialIcon:hover {
-  color: $mainOrange;
+  color: #f28b00;
 }

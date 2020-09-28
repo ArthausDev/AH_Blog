@@ -30,7 +30,15 @@ const socialMediaList = [
 ]
 
 function Footer() {
-  const { footerContainer, socialIconList } = styles
+  const {
+    footerContainer,
+    socialIconList,
+    socialIconItem,
+    instagramIcon,
+    facebookIcon,
+    twitterIcon,
+    linkedInIcon,
+  } = styles
   return (
     <footer className={footerContainer}>
       <div className={styles.leftColumn}>
@@ -47,25 +55,44 @@ function Footer() {
         </div>
       </div>
       <div className={styles.rightColumn}>
+        
         <ul className={socialIconList}>
-          {/* put items in order before mapping */}
-          {socialMediaList &&
-            socialMediaList
-              .sort((a, b) => {
-                return a.order - b.order
-              })
-              .map((item, indx) => {
-                return (
-                  <li key={indx}>
-                    <SocialMediaIcon icon={item.icon} linkUrl={item.linkUrl} />
-                  </li>
-                )
-              })}
+          <li>
+            <a
+              className={`${socialIconItem} ${instagramIcon}`}
+              href="https://www.instagram.com/arthaus_design/"
+              target="_blank"
+              rel="noopener noreferrer"
+            ></a>
+          </li>
+          <li>
+            <a
+              className={`${socialIconItem} ${linkedInIcon}`}
+              href="https://www.instagram.com/arthaus_design/"
+              target="_blank"
+              rel="noopener noreferrer"
+            ></a>
+          </li>
+          <li>
+            <a
+              className={`${socialIconItem} ${twitterIcon}`}
+              href="https://www.instagram.com/arthaus_design/"
+              target="_blank"
+              rel="noopener noreferrer"
+            ></a>
+          </li>
+          <li>
+            <a
+              className={`${socialIconItem} ${facebookIcon}`}
+              href="https://www.instagram.com/arthaus_design/"
+              target="_blank"
+              rel="noopener noreferrer"
+            ></a>
+          </li>
         </ul>
-
         <p className="text--white text--center">
           <a
-          style={{fontSize:'12px',textDecoration:'none'}}
+            style={{ fontSize: "12px", textDecoration: "none" }}
             href="https://www.arthaus.co.uk/privacy-terms-conditions.html"
             target="_blank"
             rel="noreferrer"
@@ -82,3 +109,20 @@ function Footer() {
 }
 
 export default Footer
+/*
+<ul className={socialIconList}>
+          // put items in order before mapping 
+          {socialMediaList &&
+            socialMediaList
+              .sort((a, b) => {
+                return a.order - b.order
+              })
+              .map((item, indx) => {
+                return (
+                  <li key={indx}>
+                    <SocialMediaIcon icon={item.icon} linkUrl={item.linkUrl} />
+                  </li>
+                )
+              })}
+        </ul>
+ */

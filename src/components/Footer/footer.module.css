@@ -1,23 +1,23 @@
-@import "../../styles/_variables.scss";
-
 .footerContainer {
   position: relative;
   padding-top: 16px;
   padding-bottom: 16px;
   padding-left: 16px;
   padding-right: 20px;
-  background-color: $darkGray;
-  border-top: 3px solid $mainOrange;
+  background-color: #42413a;
+  border-top: 3px solid #f28b00;
   max-width: 952px;
   margin: 0 auto 10px;
   color: white;
-  font-family: $fontLight;
+  font-family: "LatoWebLight";
+}
 
-  a {
-    color: white;
-  }
+.footerContainer a {
+  color: white;
+}
 
-  @media only screen and (min-width: 760px) {
+@media only screen and (min-width: 760px) {
+  .footerContainer {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -31,16 +31,18 @@
 
 .address {
   line-height: 1.45;
+}
 
-  p {
-    margin-bottom: 2px;
-  }
+.address p {
+  margin-bottom: 2px;
 }
 
 .leftColumn {
   display: none;
+}
 
-  @media only screen and (min-width: 760px) {
+@media only screen and (min-width: 760px) {
+  .leftColumn {
     display: flex;
     font-size: 12px;
   }
@@ -49,37 +51,37 @@
 .rightColumn {
   font-size: 10px;
   text-align: center;
+}
 
-  p {
-    padding: 10px;
+.rightColumn p {
+  padding: 10px;
+}
 
-    @media only screen and (min-width: 760px) {
-      padding: 4px 0 0;
-      text-align: right;
-      margin-bottom: 2px;
-    }
+@media only screen and (min-width: 760px) {
+  .rightColumn p {
+    padding: 4px 0 0;
+    text-align: right;
+    margin-bottom: 2px;
   }
 }
 
 .socialIconList {
-  // max-width: 120px;
   width: 100%;
   margin: 0 0 1px auto;
   padding-top: 7px;
   padding-bottom: 1px;
-
   justify-content: flex-end;
   align-items: center;
   display: flex;
   flex: 1 1 auto;
+}
 
-  li {
-    padding: 0 8px;
+.socialIconList li {
+  padding: 0 8px;
+}
 
-    &:last-child {
-      padding-right: 0;
-    }
-  }
+.socialIconList li:last-child {
+  padding-right: 0;
 }
 
 .textXsmall {
@@ -90,7 +92,6 @@
 }
 
 .socialIconItem {
-  // background-color: red;
   display: block;
   background-position: center;
   background-size: cover;
@@ -100,38 +101,38 @@
   width: 20px;
   height: 19.19px;
   background-image: url("../../images/footer/Instagram.png");
+}
 
-  &:hover {
-    background-image: url("../../images/footer/Instagram_rollover.png");
-  }
+.instagramIcon:hover {
+  background-image: url("../../images/footer/Instagram_rollover.png");
 }
 
 .linkedInIcon {
   width: 20px;
   height: 19.47px;
   background-image: url("../../images/footer/LinkedIn.png");
+}
 
-  &:hover {
-    background-image: url("../../images/footer/linkedin_rollover.png");
-  }
+.linkedInIcon:hover {
+  background-image: url("../../images/footer/linkedin_rollover.png");
 }
 
 .twitterIcon {
   background-image: url("../../images/footer/Twitter.png");
   width: 20px;
   height: 16.88px;
+}
 
-  &:hover {
-    background-image: url("../../images/footer/twitter_rollover.png");
-  }
+.twitterIcon:hover {
+  background-image: url("../../images/footer/twitter_rollover.png");
 }
 
 .facebookIcon {
   background-image: url("../../images/footer/Facebook.png");
   width: 10.25px;
   height: 19.95px;
+}
 
-  &:hover {
-    background-image: url("../../images/footer/Facebook_rollover.png");
-  }
+.facebookIcon:hover {
+  background-image: url("../../images/footer/Facebook_rollover.png");
 }
