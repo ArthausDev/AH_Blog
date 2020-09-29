@@ -1,11 +1,10 @@
 ---
 title: Why ‘Desire Paths’ are defining digital design?
-heroImg: desire-paths.jpg
+heroImg: desire-paths-arthaus-blog-page.jpg
 author: Roxy
 content:
   - sectionParagraphs:
-      - paragraph:
-          "When thinking about design it is often the purely visual aspect that
+      - paragraph: "When thinking about design it is often the purely visual aspect that
           is the client’s focus, simply asking us to create something that is
           visually appealing.  The brief hasn’t asked us to consider the end
           user experience or the interaction the audience will have. However, as
@@ -14,8 +13,7 @@ content:
           actual experience over something visual.  Our design should not
           challenge learned behaviours as this results in a loss of interest, or
           worse, a loss in purchase. "
-      - paragraph:
-          "To illustrate this point, a great example found in our everyday
+      - paragraph: "To illustrate this point, a great example found in our everyday
           lives is to consider the experience whilst walking in parks or older
           planned towns. We start by following a defined path only to then find
           an informal path that either deviates or seems to suddenly appear
@@ -26,8 +24,7 @@ content:
           environment, rather than how their users would want to interact with
           them.  As a result of such a common and increasing occurrence of this
           phenomenon it has actually garnered a name: a ‘Desire Path’. "
-      - paragraph:
-          "The desire path is formed when a user deviates from the planned
+      - paragraph: "The desire path is formed when a user deviates from the planned
           design, with either good or bad intention, but with intention all the
           same. Theoretically, the design may make sense to the creators,
           however in practice, the design will continue to fall short for the
@@ -40,25 +37,21 @@ content:
           to follow the path of least resistance.  Design is not subjective or
           partial to a brand’s specific area of business, but rather, it
           transcends all such areas."
-      - paragraph:
-          "Inertia is the biggest threat!  Too many clicks, or needing to look
+      - paragraph: "Inertia is the biggest threat!  Too many clicks, or needing to look
           for the next button, is all it takes for people to abandon the
           interaction.  To counter this designers should be looking to ‘pave the
           cowpaths*’. By doing this we will enhance what users are already doing
           and ensures that we support the most common desire paths.   "
-      - paragraph:
-          "We cannot always accurately predict a user’s behaviour but once we
+      - paragraph: "We cannot always accurately predict a user’s behaviour but once we
           view the behaviour, good or bad, we should immediately action any
           shortfall and change the design for a better user experience.  Always
           remember if you have a direct competitor whose site is easy to use,
           the likelihood is they will go and use that site! "
-      - paragraph:
-          "Neil Sheppard, an experienced UX content strategist, advises “If
+      - paragraph: "Neil Sheppard, an experienced UX content strategist, advises “If
           there is one founding principle of user experience, it’s that your
           site should follow the user’s path, rather than directing them where
           you want to go.”. "
-      - paragraph:
-          "* In UX terminology a desire path is sometimes also referred to as a
+      - paragraph: "* In UX terminology a desire path is sometimes also referred to as a
           cowpath "
         asteriskText: true
 ---
