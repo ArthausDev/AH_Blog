@@ -1,6 +1,6 @@
 ---
 title: Why ‘Desire Paths’ are defining digital design?
-heroImg: desire-paths-arthaus-blog-page.jpg
+heroImg: desire-paths-arthaus-blog-page-resized.jpg
 author: Roxy
 content:
   - sectionParagraphs:
