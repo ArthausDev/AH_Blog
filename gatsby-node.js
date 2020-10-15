@@ -28,6 +28,7 @@ exports.createPages = async ({ graphql, actions }) => {
                     publicURL
                   }
                   caption
+                  imageAlt
                 }
                 sectionLinks {
                   linkLabel
