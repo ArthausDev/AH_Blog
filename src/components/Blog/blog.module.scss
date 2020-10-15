@@ -58,6 +58,7 @@ $avatarWidth: 15%;
 
 .sectionParagraph {
   padding: 15px 0;
+  line-height: 1.5;
 }
 
 .sectionImage {
@@ -68,6 +69,7 @@ $avatarWidth: 15%;
     font-style: italic;
     font-family: $fontLight;
     padding: 10px 0;
+    color: $darkGray;
   }
 }
 
