@@ -64,7 +64,19 @@
 .sectionImage figcaption {
   font-style: italic;
   font-family: "LatoWebLight";
-  padding: 10px 20px;
+  padding: 10px 0;
+}
+
+.textDividerTop {
+  border-top: 2px solid #f28b00;
+  margin: 0 auto;
+  max-width: 400px;
+}
+
+.textDividerBottom {
+  margin: 0 auto 20px;
+  border-bottom: 2px solid #f28b00;
+  max-width: 400px;
 }
 
 .shareSocialIcon {

@@ -1,8 +1,17 @@
-import React from "react"
+import React, { Fragment } from "react"
 import ImgCard from "../ImgCard/ImgCard"
 
 import styles from "./blog.module.scss"
-
+const mapImages = (sectionImages)=>{
+return  sectionImages.map((img, index) => (
+          <ImgCard
+            key={index}
+            src={img.image.publicURL}
+            alt=""
+            caption={img.caption}
+            className={styles.sectionImage}
+          />))
+}
 const ContentSection = ({ item }) => {
   const {
     sectionHeading,
@@ -29,16 +38,15 @@ const ContentSection = ({ item }) => {
           </p>
         ))}
       {/* For Section Images if exist */}
-      {sectionImages &&
-        sectionImages.map((img, index) => (
-          <ImgCard
-            key={index}
-            src={img.image.publicURL}
-            alt=""
-            caption={img.caption}
-            className={styles.sectionImage}
-          />
-        ))}
+      {sectionImages && (sectionImages.length===1 ? mapImages(sectionImages) : (
+        <Fragment>
+             <div className={styles.textDividerTop}> </div>
+          {mapImages(sectionImages)}
+       <div className={styles.textDividerBottom}> </div>
+        </Fragment>
+     
+      ))}
+       
 
       {/* For Section Links if exist */}
       {sectionLinks && (
