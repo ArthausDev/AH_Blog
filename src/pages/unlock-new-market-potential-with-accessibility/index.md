@@ -1,6 +1,6 @@
 ---
 title: Unlock new market potential with accessibility
-heroImg: accessibility2356.png
+heroImg: accessibility994web.jpg
 author: Callum
 content:
   - sectionParagraphs:
