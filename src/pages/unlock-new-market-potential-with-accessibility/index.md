@@ -34,12 +34,18 @@ content:
         caption: "Example 1: This fails across several test marks, however, with just a
           few small lines of CSS code updates the fails can easily be rectified
           making it more readable across the visible impairment spectrum."
+        imageAlt: Example of a poorly design text content area on a site, with difficult
+          to read font colour choice, beside the failed test results for a
+          colour contrast checker
       - image: accessability-correct-full.png
         caption: "Example 2: Just by increasing the font-size to 16px+, selecting a font
           colour that passes contrast checks, increasing the line spacing to 1.5
           and ensuring that there is a maximum of 85 characters per  line, the
           user will instantly get a much more pleasant experience. This not only
           reads better but looks better too!"
+        imageAlt: Improved design text content area on a site, with an easy to read font
+          colour choice, beside the passed test results for a colour contrast
+          checker
   - sectionParagraphs:
       - asteriskText: false
         paragraph: In fact, accessibility practices don’t just help those with
