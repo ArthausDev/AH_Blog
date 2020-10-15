@@ -7,7 +7,7 @@ return  sectionImages.map((img, index) => (
           <ImgCard
             key={index}
             src={img.image.publicURL}
-            alt={img.imageAlt}
+            alt=""
             caption={img.caption}
             className={styles.sectionImage}
           />))
