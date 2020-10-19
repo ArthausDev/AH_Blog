@@ -55,7 +55,7 @@ content:
           discussion and works well in the online environment.  "
       - paragraph: "Another option to consider is a moderator, certainly for meetings
           with a larger group. They will be able to drive the discussion and
-          manage the conversational turn-taking. This prevent people speaking
+          manage the conversational turn-taking. This prevents people speaking
           over each other or struggling to be heard. We should also take
           advantage of the “raise hand” function to indicate we have a point to
           make.  "
