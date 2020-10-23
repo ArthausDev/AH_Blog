@@ -77,6 +77,9 @@ content:
           goals.
       - asteriskText: false
         paragraph: If your business needs to improve its accessibility standards on your
-          site please contact us at think@arthaus.co.uk and ask to see how we
+          site, we are here to help, hit the button below, and ask to see how we
           can improve the user journey for all of your site visitors.
+    sectionLinks:
+      - linkLabel: Let’s Talk
+        linkUrl: mailto:think@arthaus.co.uk
 ---
