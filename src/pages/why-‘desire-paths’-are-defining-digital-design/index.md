@@ -54,4 +54,15 @@ content:
       - paragraph: "* In UX terminology a desire path is sometimes also referred to as a
           cowpath "
         asteriskText: true
+      - asteriskText: false
+        paragraph: If you are looking for some expert guidance to ensure that you don’t
+          lose valuable traffic, then hit the button below and ask how we can
+          help.
+    sectionLinks:
+      - linkLabel: Let's talk!
+        linkUrl: mailto:think@arthaus.co.uk
+  - sectionParagraphs:
+      - asteriskText: true
+        paragraph: "* In UX terminology a desire path is sometimes also referred to as a
+          cowpath"
 ---
