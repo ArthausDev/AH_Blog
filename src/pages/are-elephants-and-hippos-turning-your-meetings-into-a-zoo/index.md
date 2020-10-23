@@ -59,8 +59,13 @@ content:
           over each other or struggling to be heard. We should also take
           advantage of the “raise hand” function to indicate we have a point to
           make.  "
-      - paragraph: "Whichever way you choose to tackle this new virtual world, what is
+      - paragraph: Whichever way you choose to tackle this new virtual world, what is
           clear is that we will all need to have an agile and flexible mindset
           as well as devoting time and energy to getting our virtual meeting
-          protocols right. Those that do are infinitely more likely to win.  "
+          protocols right. Those that do are infinitely more likely to win.  We
+          can help you communicate more effectively, just hit the button below,
+          to start a conversation.
+    sectionLinks:
+      - linkLabel: Let’s Talk
+        linkUrl: mailto:think@arthaus.co.uk
 ---
