@@ -21,7 +21,7 @@ import MarkBAvatar from "../../images/staffAvatars/Mark-B.png"
 import ClaireAvatar from "../../images/staffAvatars/Claire.png"
 
 const BlogPageLayout = ({ pageContext }) => {
-  console.log("pageContext", pageContext)
+ // console.log("pageContext", pageContext)
   let avatarImgSrc = DefaultAvatar
   const { blogItem } = pageContext //object destructuring
   const { title, content, heroImg, author } = blogItem.frontmatter //object destructuring
