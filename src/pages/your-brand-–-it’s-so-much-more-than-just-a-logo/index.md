@@ -1,6 +1,6 @@
 ---
 title: Your brand – it’s so much more than just a logo
-heroImg: thumbnail.png
+heroImg: brand-more-than-a-logo-1-.jpg
 author: Mike
 content:
   - sectionParagraphs:
