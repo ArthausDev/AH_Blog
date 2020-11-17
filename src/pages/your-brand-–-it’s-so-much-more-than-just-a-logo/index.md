@@ -1,5 +1,5 @@
 ---
-title: Your brand – it’s so much more than just a logo
+title: Your brand
 heroImg: brandmorethanalogo-1-.jpg
 author: Mike
 content:
