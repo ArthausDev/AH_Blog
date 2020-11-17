@@ -1,6 +1,6 @@
 ---
 title: TESTING
-heroImg: color-of-the-year-fb68e3162e304f7db2a8780d8939b0e5.png
+heroImg: brandmorethanalogo-1-.jpg
 author: Stacey
 content:
   - sectionParagraphs:
