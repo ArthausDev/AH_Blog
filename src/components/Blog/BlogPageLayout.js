@@ -17,6 +17,7 @@ import ThaoAvatar from "../../images/staffAvatars/Thao.png"
 import BeckyAvatar from "../../images/staffAvatars/Becky.png"
 import MarkLAvatar from "../../images/staffAvatars/Mark-L.png"
 import MarkBAvatar from "../../images/staffAvatars/Mark-B.png"
+import MikeAvatar from '../../images/staffAvatars/Mike.png'
 import ClaireAvatar from "../../images/staffAvatars/Claire.png"
 import JoeAvatar from '../../images/staffAvatars/Joe.png'
 
@@ -82,7 +83,11 @@ const BlogPageLayout = ({ pageContext }) => {
       avatarBkgColour = avatarBkgColourList.burgundy
       authorLastname = "Masiak"
       break
-   
+    case "Mike":
+      avatarImgSrc = MikeAvatar
+      avatarBkgColour = avatarBkgColourList.teal
+      authorLastname = "Spiers"
+      break
     case "Roxy":
       avatarImgSrc = RoxyAvatar
       avatarBkgColour = avatarBkgColourList.green
