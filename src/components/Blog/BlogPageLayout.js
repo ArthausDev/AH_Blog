@@ -21,6 +21,8 @@ import MikeAvatar from '../../images/staffAvatars/Mike.png'
 import ClaireAvatar from "../../images/staffAvatars/Claire.png"
 import JoeAvatar from '../../images/staffAvatars/Joe.png'
 
+import OctopusAvatar from '../../images/companyAvatar/Purple-octopus-logo.png'
+
 const BlogPageLayout = ({ pageContext }) => {
  // console.log("pageContext", pageContext)
   let avatarImgSrc = DefaultAvatar
@@ -88,6 +90,11 @@ const BlogPageLayout = ({ pageContext }) => {
       avatarBkgColour = avatarBkgColourList.teal
       authorLastname = "Spiers"
       break
+    case "Purple Octopus":
+      avatarImgSrc = OctopusAvatar
+      avatarBkgColour = avatarBkgColourList.teal
+      authorLastname = "Marketing Solutions"
+      break
     case "Roxy":
       avatarImgSrc = RoxyAvatar
       avatarBkgColour = avatarBkgColourList.green
@@ -99,6 +106,8 @@ const BlogPageLayout = ({ pageContext }) => {
       avatarBkgColour = avatarBkgColourList.green
       authorLastname = "Truong"
       break
+    case '':
+
     default:
       avatarImgSrc = DefaultAvatar
       avatarBkgColour = "white"
