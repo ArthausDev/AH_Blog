@@ -1,7 +1,7 @@
 ---
 title: The Digital Dilemma… Where to Start?
 heroImg: digital-dilemma-hero.jpg
-author: Joe
+author: Purple Octopus
 content:
   - sectionParagraphs:
       - asteriskText: false
