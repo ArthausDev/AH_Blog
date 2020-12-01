@@ -77,6 +77,6 @@ content:
           looking for some expert advice, then hit the button below and get in
           touch. "
     sectionLinks:
-      - linkLabel: Get in Touch
-        linkUrl: https://www.arthaus.co.uk/contact/contact.html
+      - linkLabel: Lets Talk
+        linkUrl: mailto:think@arthaus.co.uk
 ---
