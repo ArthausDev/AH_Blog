@@ -4,6 +4,7 @@ import PageTitle from "../PageTitle/PageTitle"
 import ImgCard from "../ImgCard/ImgCard"
 import ContentSection from "./ContentSection"
 import SharePost from "./SharePost"
+import Helmet from 'gatsby-plugin-react-helmet'
 
 import styles from "./blog.module.scss"
 import DefaultAvatar from "../../images/staffAvatars/anyone.jpg"
@@ -11,14 +12,13 @@ import CallumAvatar from "../../images/staffAvatars/Callum.png"
 import EdAvatar from "../../images/staffAvatars/Ed.png"
 import HasanAvatar from "../../images/staffAvatars/Hasan.png"
 import MatthewAvatar from "../../images/staffAvatars/Matthew.png"
-import MikeAvatar from "../../images/staffAvatars/Mike.png"
 import RoxyAvatar from "../../images/staffAvatars/Roxy.png"
-import StaceyAvatar from "../../images/staffAvatars/Stacey.png"
 import ThaoAvatar from "../../images/staffAvatars/Thao.png"
 import BeckyAvatar from "../../images/staffAvatars/Becky.png"
 import MarkLAvatar from "../../images/staffAvatars/Mark-L.png"
 import MarkBAvatar from "../../images/staffAvatars/Mark-B.png"
 import ClaireAvatar from "../../images/staffAvatars/Claire.png"
+import JoeAvatar from '../../images/staffAvatars/Joe.png'
 
 const BlogPageLayout = ({ pageContext }) => {
  // console.log("pageContext", pageContext)
@@ -62,6 +62,11 @@ const BlogPageLayout = ({ pageContext }) => {
       avatarBkgColour = avatarBkgColourList.blue
       authorLastname = "Afzal"
       break
+    case "Joe":
+      avatarImgSrc = JoeAvatar
+      avatarBkgColour = avatarBkgColourList.burgundy
+      authorLastname = "Sisson"
+      break
     case "MarkB":
       avatarImgSrc = MarkBAvatar
       avatarBkgColour = avatarBkgColourList.darkBlue
@@ -77,21 +82,13 @@ const BlogPageLayout = ({ pageContext }) => {
       avatarBkgColour = avatarBkgColourList.burgundy
       authorLastname = "Masiak"
       break
-    case "Mike":
-      avatarImgSrc = MikeAvatar
-      avatarBkgColour = avatarBkgColourList.teal
-      authorLastname = "Spiers"
-      break
+   
     case "Roxy":
       avatarImgSrc = RoxyAvatar
       avatarBkgColour = avatarBkgColourList.green
       authorLastname = "Bradley"
       break
-    case "Stacey":
-      avatarImgSrc = StaceyAvatar
-      avatarBkgColour = avatarBkgColourList.teal
-      authorLastname = "Jenkins"
-      break
+   
     case "Thao":
       avatarImgSrc = ThaoAvatar
       avatarBkgColour = avatarBkgColourList.green
