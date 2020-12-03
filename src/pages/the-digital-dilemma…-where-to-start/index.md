@@ -1,5 +1,5 @@
 ---
-title: The Digital Dilemma… Where to Start?
+title: The Digital Dilemma … Where to Start?
 heroImg: digital-dilemma-hero.jpg
 author: Purple Octopus
 content:
