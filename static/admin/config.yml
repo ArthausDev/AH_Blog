@@ -32,11 +32,12 @@ collections:
               "MarkL",
               "Matthew",
               "Mike",
-              "Purple Octopus",
+              "Ann-Marie",
               "Roxy",
               "Thao",
             ],
         }
+      - { name: company, label: Company Name, required: false, widget: string }
       - {
           name: content,
           label: Section Content,

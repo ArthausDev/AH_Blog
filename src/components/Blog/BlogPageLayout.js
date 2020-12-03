@@ -90,10 +90,10 @@ const BlogPageLayout = ({ pageContext }) => {
       avatarBkgColour = avatarBkgColourList.teal
       authorLastname = "Spiers"
       break
-    case "Purple Octopus":
+    case "Ann-Marie":
       avatarImgSrc = OctopusAvatar
       avatarBkgColour = avatarBkgColourList.teal
-      authorLastname = "Marketing Solutions"
+      authorLastname = "Jones"
       break
     case "Roxy":
       avatarImgSrc = RoxyAvatar
