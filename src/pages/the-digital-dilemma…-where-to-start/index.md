@@ -1,5 +1,5 @@
 ---
-title: The Digital Dilemma… Where to Start?
+title: The Digital Dilemma … Where to Start?
 heroImg: digital-dilemma-hero.jpg
 author: Ann-Marie
 content:
@@ -148,9 +148,9 @@ content:
           like more information on what the best platform for your business is
           please get in touch and let us walk you through the most suitable
           digital solutions to achieve your business objectives. "
+      - asteriskText: false
+        paragraph: contact@purpleoctopus.co.uk or visit www.purpleoctopus.co.uk
     sectionLinks:
-      - linkLabel: Contact Purple Octopus Marketing Solutions
-        linkUrl: "mailto:contact@purpleoctopus.co.uk "
-      - linkLabel: Visit Purple Octopus Website
-        linkUrl: www.purpleoctopus.co.uk
+      - linkLabel: Let's Talk
+        linkUrl: mailto:think@arthaus.co.uk
 ---
