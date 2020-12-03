@@ -136,8 +136,6 @@ content:
           please get in touch and let us walk you through the most suitable
           digital solutions to achieve your business objectives. "
     sectionLinks:
-      - linkLabel: Contact Purple Octopus Marketing Solutions
-        linkUrl: "mailto:contact@purpleoctopus.co.uk "
-      - linkLabel: Visit Purple Octopus Website
-        linkUrl: www.purpleoctopus.co.uk
+      - linkLabel: Let's Talk
+        linkUrl: mailto:think@arthaus.co.uk
 ---
