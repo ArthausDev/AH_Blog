@@ -45,6 +45,7 @@ exports.createPages = async ({ graphql, actions }) => {
               }
               author
               company
+              guest
             }
             fields {
               sourceName
