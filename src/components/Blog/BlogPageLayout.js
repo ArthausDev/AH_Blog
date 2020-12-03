@@ -27,7 +27,7 @@ const BlogPageLayout = ({ pageContext }) => {
  // console.log("pageContext", pageContext)
   let avatarImgSrc = DefaultAvatar
   const { blogItem } = pageContext //object destructuring
-  const { title, content, heroImg, author } = blogItem.frontmatter //object destructuring
+  const { title, content, heroImg, author ,company} = blogItem.frontmatter //object destructuring
   const avatarBkgColourList = {
     green: "#AFB744",
     burgundy: "#8E5562",
@@ -129,7 +129,7 @@ const BlogPageLayout = ({ pageContext }) => {
         />
       </div>
 
-      <PageTitle title={title} author={authorFullName} />
+      <PageTitle title={title} author={authorFullName} company={company}/>
       {content.length !== 0 &&
         content.map((item, index) => {
           return <ContentSection item={item} key={index} />

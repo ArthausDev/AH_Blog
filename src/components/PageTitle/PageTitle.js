@@ -1,10 +1,14 @@
 import React from "react"
 import styles from "./pageTitle.module.scss"
-const PageTitle = ({ title, author }) => {
+const PageTitle = ({ title, author,company }) => {
   return (
     <div className={styles.titleContainer}>
       <h1>{title}</h1>
-      <p className={styles.author}>WRITTEN BY {author} </p>
+      <div className={styles.author}>
+        <p>WRITTEN BY {author} </p>
+        {company && <p>{company}</p>}
+        </div>
+      
     </div>
   )
 }
