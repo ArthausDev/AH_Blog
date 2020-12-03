@@ -2,6 +2,7 @@
 title: The Digital Dilemma … Where to Start?
 heroImg: digital-dilemma-hero.jpg
 author: Ann-Marie
+guest: true
 company: Purple Octopus Marketing
 content:
   - sectionParagraphs:
