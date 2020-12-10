@@ -2,6 +2,7 @@
 title: Your brand – it’s so much more than just a logo
 heroImg: brandmorethanalogo-1-.jpg
 author: Mike
+publishedDate: 17 NOV 2020
 content:
   - sectionParagraphs:
       - asteriskText: false
