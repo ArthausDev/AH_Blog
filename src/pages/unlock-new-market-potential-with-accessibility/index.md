@@ -2,6 +2,7 @@
 title: Unlock new market potential with accessibility
 heroImg: accessibility994web.jpg
 author: Callum
+publishedDate: 28 OCT 2020
 content:
   - sectionParagraphs:
       - asteriskText: false
