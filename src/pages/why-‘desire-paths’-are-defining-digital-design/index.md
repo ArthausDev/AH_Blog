@@ -2,6 +2,7 @@
 title: Why ‘Desire Paths’ are defining digital design?
 heroImg: desire-paths-arthaus-blog-page-resized.jpg
 author: Roxy
+publishedDate: 07 OCT 2020
 content:
   - sectionParagraphs:
       - paragraph: "When thinking about design it is often the purely visual aspect that
