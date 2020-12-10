@@ -2,7 +2,6 @@
 title: Testing author from arthaus
 heroImg: istockphoto-1087300568-612x612.jpg
 author: Thao
-guest: true
 guestName: ABC
 company: DEF
 guestAvatar: istockphoto-1151923823-612x612.jpg
@@ -10,7 +9,8 @@ publishedDate: 20 DEC 2020
 content:
   - sectionParagraphs:
       - asteriskText: false
-        paragraph: Et harum quidem rerum facilis est et expedita distinctio. Nam libero
+        paragraph:
+          Et harum quidem rerum facilis est et expedita distinctio. Nam libero
           tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo
           minus id quod maxime placeat facere possimus, omnis voluptas assumenda
           est, omnis dolor repellendus. Temporibus autem quibusdam et aut

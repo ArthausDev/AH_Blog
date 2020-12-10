@@ -27,7 +27,7 @@ const BlogPageLayout = ({ pageContext }) => {
  // console.log("pageContext", pageContext)
   let avatarImgSrc = DefaultAvatar
   const { blogItem } = pageContext //object destructuring
-  const { title, content, heroImg, author ,company,guest} = blogItem.frontmatter //object destructuring
+  const { title, content, heroImg, author ,company,guestName,guestAvatar,publishedDate} = blogItem.frontmatter //object destructuring
   const avatarBkgColourList = {
     green: "#AFB744",
     burgundy: "#8E5562",
@@ -106,14 +106,17 @@ const BlogPageLayout = ({ pageContext }) => {
       avatarBkgColour = avatarBkgColourList.green
       authorLastname = "Truong"
       break
-    case '':
-
+    case 'Not in the list':
+      avatarImgSrc = guestAvatar ? guestAvatar.publicURL : DefaultAvatar
+      avatarBkgColour = 'white'
+      authorLastname = guestName ? guestName : 'Guest'
+      break
     default:
       avatarImgSrc = DefaultAvatar
       avatarBkgColour = "white"
-      authorLastname = "Arthaus"
+      authorLastname = ""
   }
-  let authorFullName = `${author} ${authorLastname}`
+  let authorFullName = `${author!=='Not in the list' ? author : ''} ${authorLastname}`
   if (author.toUpperCase() === "MARKB" || author.toUpperCase() === "MARKL") {
     authorFullName = `MARK ${authorLastname}`
   }
@@ -129,7 +132,13 @@ const BlogPageLayout = ({ pageContext }) => {
         />
       </div>
 
-      <PageTitle title={title} author={authorFullName} company={company} guest={guest}/>
+      <PageTitle 
+        title={title} 
+        author={authorFullName} 
+        company={author==='Not in the list' ? company : null} 
+        guest={author==='Not in the list' ? true : false}
+        publishedDate={publishedDate}
+      />
       {content.length !== 0 &&
         content.map((item, index) => {
           return <ContentSection item={item} key={index} />

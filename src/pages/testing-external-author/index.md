@@ -2,7 +2,6 @@
 title: "Testing external author "
 heroImg: 8f56ba474ae1ae88bcb2d9c43f070517.jpg
 author: Not in the list
-guest: true
 guestName: Jane Doe
 company: A House
 guestAvatar: 50735871.jpg
@@ -10,7 +9,8 @@ publishedDate: 10 DEC 2020
 content:
   - sectionParagraphs:
       - asteriskText: false
-        paragraph: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+        paragraph:
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Ornare
           arcu odio ut sem nulla pharetra diam. Cras ornare arcu dui vivamus.
           Enim tortor at auctor urna nunc. Dolor sed viverra ipsum nunc aliquet
