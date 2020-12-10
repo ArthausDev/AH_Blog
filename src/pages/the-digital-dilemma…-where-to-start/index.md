@@ -4,6 +4,7 @@ heroImg: digital-dilemma-hero.jpg
 author: Ann-Marie
 guest: true
 company: Purple Octopus Marketing
+publishedDate: 03 DEC 2020
 content:
   - sectionParagraphs:
       - asteriskText: false
