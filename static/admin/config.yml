@@ -32,18 +32,10 @@ collections:
               "MarkL",
               "Matthew",
               "Mike",
-              "Ann-Marie",
               "Roxy",
               "Thao",
               "Not in the list",
             ],
-        }
-      - {
-          name: guest,
-          label: External Author,
-          required: false,
-          widget: boolean,
-          default: false,
         }
       - { name: guestName, label: Guest Name, required: false, widget: string }
       - { name: company, label: Company Name, required: false, widget: string }

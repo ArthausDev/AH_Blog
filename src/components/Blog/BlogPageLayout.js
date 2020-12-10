@@ -21,7 +21,7 @@ import MikeAvatar from '../../images/staffAvatars/Mike.png'
 import ClaireAvatar from "../../images/staffAvatars/Claire.png"
 import JoeAvatar from '../../images/staffAvatars/Joe.png'
 
-import OctopusAvatar from '../../images/companyAvatar/Purple-octopus-logo.png'
+
 
 const BlogPageLayout = ({ pageContext }) => {
  // console.log("pageContext", pageContext)
@@ -90,11 +90,7 @@ const BlogPageLayout = ({ pageContext }) => {
       avatarBkgColour = avatarBkgColourList.teal
       authorLastname = "Spiers"
       break
-    case "Ann-Marie":
-      avatarImgSrc = OctopusAvatar
-      avatarBkgColour = avatarBkgColourList.teal
-      authorLastname = "Jones"
-      break
+   
     case "Roxy":
       avatarImgSrc = RoxyAvatar
       avatarBkgColour = avatarBkgColourList.green
