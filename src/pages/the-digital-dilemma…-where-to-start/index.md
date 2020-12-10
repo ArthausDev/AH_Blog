@@ -1,9 +1,11 @@
 ---
 title: The Digital Dilemma … Where to Start?
 heroImg: digital-dilemma-hero.jpg
-author: Ann-Marie
+author: Not in the list
 guest: true
+guestName: ANN-MARIE JONES
 company: Purple Octopus Marketing
+guestAvatar: purple-octopus-logo.png
 publishedDate: 03 DEC 2020
 content:
   - sectionParagraphs:
