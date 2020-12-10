@@ -5,7 +5,7 @@ author: Thao
 guest: true
 guestName: ABC
 company: DEF
-guestAvatar: screenshot-2020-08-27-at-17.53.08.png
+guestAvatar: istockphoto-1151923823-612x612.jpg
 publishedDate: 20 DEC 2020
 content:
   - sectionParagraphs:
