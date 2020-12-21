@@ -155,6 +155,10 @@ content:
           performance and productivity on a sustainable basis. "
     sectionLinks:
       - linkLabel: Connect with Abigail
+  - sectionHeading: " "
+    sectionParagraphs:
+      - asteriskText: false
+        paragraph: "    "
   - sectionHeading: References
     sectionParagraphs:
       - asteriskText: false
