@@ -141,5 +141,6 @@ content:
           from you, Leigh and Abigail can also be reached here if you would like
           to develop your wellbeing offerings.
     sectionLinks:
-      - linkLabel: Let's talk
+      - linkLabel: Let's Talk
+        linkUrl: mailto:think@arthaus.co.uk
 ---
