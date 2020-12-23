@@ -23,6 +23,7 @@ content:
           performance and productivity on a sustainable basis. "
     sectionLinks:
       - linkLabel: Connect with Abigail
+        linkUrl: https://www.linkedin.com/in/abigailireland/
     sectionHeading: Abigail Ireland
   - sectionHeading: "                                 "
     sectionParagraphs:
