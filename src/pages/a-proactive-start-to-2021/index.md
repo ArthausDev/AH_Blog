@@ -143,12 +143,6 @@ content:
     sectionLinks:
       - linkLabel: Let's Talk
         linkUrl: mailto:think@arthaus.co.uk
-  - sectionHeading: "                   "
-    sectionParagraphs:
-      - asteriskText: false
-        paragraph: "                       "
-      - asteriskText: false
-        paragraph: "                              "
   - sectionLinks:
       - linkLabel: Further Information
         linkUrl: https://blog.arthaus.co.uk/further-information-for-a-proactive-start-to-2021/
