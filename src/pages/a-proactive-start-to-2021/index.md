@@ -145,5 +145,5 @@ content:
         linkUrl: mailto:think@arthaus.co.uk
   - sectionLinks:
       - linkLabel: Further Information
-        linkUrl: https://blog.arthaus.co.uk/further-information-for-a-proactive-start-to-2021/index.html
+        linkUrl: https://blog.arthaus.co.uk/further-information-for-a-proactive-start-to-2021/
 ---
