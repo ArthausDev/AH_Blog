@@ -20,7 +20,7 @@
   .footerContainer {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
   }
 }
 
@@ -30,7 +30,7 @@
 }
 
 .address {
-  line-height: 1.45;
+  line-height: 1.55;
 }
 
 .address p {
@@ -68,8 +68,6 @@
 .socialIconList {
   width: 100%;
   margin: 0 0 1px auto;
-  padding-top: 7px;
-  padding-bottom: 1px;
   justify-content: flex-end;
   align-items: center;
   display: flex;
@@ -92,9 +90,17 @@
 }
 
 .socialIconItem {
-  display: block;
-  background-position: center;
-  background-size: cover;
+  padding: 0 11.4px;
+  cursor: pointer;
+  font-size: 11.2px;
+}
+
+.socialIconItem:first-of-type {
+  padding: 0 8px 0 0;
+}
+
+.socialIconItem:last-of-type {
+  padding: 0 0 0 8px;
 }
 
 .instagramIcon {
@@ -135,4 +141,31 @@
 
 .facebookIcon:hover {
   background-image: url("../../images/footer/Facebook_rollover.png");
+}
+
+.socialIconImg {
+  max-width: 24px;
+  max-height: 24px;
+  vertical-align: top;
+}
+
+.copyRight {
+  margin-top: 12px;
+  font-size: 10px;
+}
+
+.bsiLogo {
+  max-width: 90px;
+}
+
+.cyberLogo {
+  max-width: 45px;
+}
+
+.certifications {
+  display: flex;
+  width: 100%;
+  padding-top: 32px;
+  justify-content: space-between;
+  align-items: flex-end;
 }
