@@ -116,6 +116,7 @@ const BlogPageLayout = ({ pageContext }) => {
   if (author.toUpperCase() === "MARKB" || author.toUpperCase() === "MARKL") {
     authorFullName = `MARK ${authorLastname}`
   }
+ 
   return (
     <Layout>
       <div className={styles.heroWrap}>

@@ -12,46 +12,36 @@ return  sectionImages.map((img, index) => (
             className={styles.sectionImage}
           />))
 }
-const ContentSection = ({ item }) => {
-  const {
-    sectionHeading,
-    sectionImages,
-    sectionLinks,
-    sectionParagraphs,
-  } = item //object destructuring
+const ContentSection = ({ item }) => {  
+ 
   return (
-    <div className={styles.section}>
-      {/* For Section Heading if exist */}
-      {sectionHeading && (
-        <h3 className={styles.sectionHeading}>{sectionHeading}</h3>
-      )}
-      {/* For Section paragraph if exist */}
-      {sectionParagraphs.length !== 0 &&
-        sectionParagraphs.map((item, index) => (
+    <div className={styles.section}> 
+    {/* For Section Heading if exist */}
+      {item.sectionHeading !== null && <h3 className={styles.sectionHeading}>{item.sectionHeading}</h3>}
+    {/* For Section paragraph if exist */}
+      {item.sectionParagraphs !== null && item.sectionParagraphs.length !==0 && item.sectionParagraphs.map((paragraph, index) => (
           <p
             className={`${styles.sectionParagraph} ${
-              item.asteriskText ? styles.asteriskText : ""
+              paragraph.asteriskText ? styles.asteriskText : ""
             } `}
             key={index}
           >
-            {item.paragraph}
+            {paragraph.paragraph}
           </p>
         ))}
-      {/* For Section Images if exist */}
-      {sectionImages && (sectionImages.length===1 ? mapImages(sectionImages) : (
+     {/* For Section Images if exist */}
+      {item.sectionImages!==null && (item.sectionImages.length===1 ? mapImages(item.sectionImages) : (
         <Fragment>
              <div className={styles.textDividerTop}> </div>
-          {mapImages(sectionImages)}
+          {mapImages(item.sectionImages)}
        <div className={styles.textDividerBottom}> </div>
         </Fragment>
      
-      ))}
-       
-
+      ))} 
       {/* For Section Links if exist */}
-      {sectionLinks && (
+      {item.sectionLinks!==null && (
         <p className={styles.sectionLinksWrap}>
-          {sectionLinks.map((link, index) => (
+          {item.sectionLinks.map((link, index) => (
             <a className={styles.sectionLink} key={index} href={link.linkUrl}>
               {link.linkLabel}
             </a>
