@@ -118,4 +118,7 @@ content:
           back to my early conversations with George (my advertising friend) I
           was speaking to him as much about culture as strategy. The two go hand
           in hand.
+    sectionLinks:
+      - linkLabel: Let's Talk
+        linkUrl: mailto:think@arthaus.co.uk
 ---
