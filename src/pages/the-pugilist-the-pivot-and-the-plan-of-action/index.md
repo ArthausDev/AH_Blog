@@ -4,7 +4,7 @@ heroImg: the-pugilist-banner.jpg
 author: Not in the list
 guestName: Bruce Dodworth
 company: Sea Glass PR Ltd
-guestAvatar: logo.jpg
+guestAvatar: logo.png
 publishedDate: 12th Feb 2021
 content:
   - sectionParagraphs:
