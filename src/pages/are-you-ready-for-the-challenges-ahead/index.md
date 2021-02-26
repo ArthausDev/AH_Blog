@@ -64,4 +64,7 @@ content:
         paragraph: If you are looking for a forward-thinking design agency, who are
           passionate about making your brand and employee communications answer
           peoples questions, get in touch and let’s start a conversation.
+    sectionLinks:
+      - linkLabel: Let's Talk
+        linkUrl: mailto:think@arthaus.co.uk
 ---
