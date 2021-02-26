@@ -1,5 +1,5 @@
 ---
-title: Are you ready for the Challenges ahead?
+title: Are You Ready for the Challenges Ahead?
 heroImg: strategic-plan-hero_banner.jpg
 author: Not in the list
 guestName: Faye Parker
