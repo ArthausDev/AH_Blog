@@ -3,19 +3,20 @@ title: Are You Ready for the Challenges Ahead?
 heroImg: strategic-plan-hero_banner.jpg
 author: Not in the list
 guestName: Faye Parker
+guestAvatar: new-badge-128x128.jpg
 publishedDate: 26th Feb 2021
 content:
   - sectionParagraphs:
       - asteriskText: false
         paragraph: "The Prime Minister has laid out his plan, to bring us out of
-          lockdown and with it bring change, yes, the changes many of us now
+          lockdown and with it brings change, yes, the changes many of us now
           long for and dream of, some normality in our lives, some consistency,
           but are we the people we once were? "
       - asteriskText: false
         paragraph: The enforced work from home policy for most businesses is a total
           culture change, many roles were simply 100% office based and when
           people took the role, that is what they signed up for, they knew
-          nothing else.  However, now they do have different way of doing
+          nothing else. However, now they do have a different way of doing
           things, do they still want, or need, the same things?
       - asteriskText: false
         paragraph: Commuting was just an accepted part of peoples’ day, a necessary
