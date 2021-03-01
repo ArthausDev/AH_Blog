@@ -3,7 +3,7 @@ title: Are You Ready for the Challenges Ahead?
 heroImg: strategic-plan-hero_banner.jpg
 author: Not in the list
 guestName: Faye Parker
-company: Arthaus
+company: ""
 guestAvatar: new-badge-128x128.jpg
 publishedDate: 26th Feb 2021
 content:
