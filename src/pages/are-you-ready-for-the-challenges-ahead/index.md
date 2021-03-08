@@ -1,6 +1,6 @@
 ---
 title: Are You Ready for the Challenges Ahead?
-heroImg: strategic-plan-hero_banner.jpg
+heroImg: strategic-plan-hero_banner-copy.jpg
 author: Not in the list
 guestName: Faye Parker
 company: ""
