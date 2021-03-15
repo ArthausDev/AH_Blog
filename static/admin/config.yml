@@ -4,7 +4,7 @@ backend:
   branch: master
 media_folder: /public/images
 public_folder: /images
-logo_url: https://www.arthaus.co.uk%2FEmail%2520Broadcasts%2Fjuly2020_emailSignature%2Fthumbnail_arthaus_logo.png
+logo_url: https://www.arthaus.co.uk/Email%20Broadcasts/july2020_emailSignature/thumbnail_arthaus_logo.png
 
 collections:
   - name: blog
