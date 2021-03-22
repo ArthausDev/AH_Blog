@@ -51,6 +51,9 @@ exports.createPages = async ({ graphql, actions }) => {
                 publicURL
               }
               publishedDate
+              contactLinkIntro
+              contactLinkLabel
+              contactLinkUrl
             }
             fields {
               sourceName
