@@ -136,3 +136,8 @@ collections:
               },
             ],
         }
+      - {
+          name: body,
+          label: Rich text editor for blog post content,
+          widget: markdown,
+        }
