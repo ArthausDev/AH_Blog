@@ -137,6 +137,18 @@ collections:
             ],
         }
       - {
+          name: contactSection, 
+          label: Contact Section, 
+          widget: Object,
+          required: false, 
+          fields:
+            {
+              {name: contactLinkIntro, label: Paragraph above contact link, widget: string, required: false}
+              {name: contactLinkLabel, label: Contact Link Label, widget: string, required: false}
+              {name: contactLinkUrl, label: Contact Link Url, widget: string, required: false}
+            }
+        }
+      - {
           name: body,
           label: Rich text editor for blog post content,
           widget: markdown,

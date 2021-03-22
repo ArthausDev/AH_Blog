@@ -27,6 +27,8 @@ const BlogPageLayout = ({ pageContext }) => {
  // console.log("pageContext", pageContext)
   let avatarImgSrc = DefaultAvatar
   const { blogItem } = pageContext //object destructuring
+ 
+  console.log('blogItem',blogItem)
   const { title, content, heroImg, author ,company,guestName,guestAvatar,publishedDate} = blogItem.frontmatter //object destructuring
   const avatarBkgColourList = {
     green: "#AFB744",
@@ -138,9 +140,12 @@ const BlogPageLayout = ({ pageContext }) => {
       />
       {content.length !== 0 &&
         content.map((item, index) => {
-          return <ContentSection item={item} key={index} />
+          return <ContentSection item={item} key={index} html={blogItem.html ? blogItem.html : null}/>
         })}
-
+      {blogItem.html!=='' ? <div
+        className={styles.section}
+        dangerouslySetInnerHTML={{ __html: blogItem.html }}
+      /> : null}
       <SharePost pageTitle={title} />
     </Layout>
   )

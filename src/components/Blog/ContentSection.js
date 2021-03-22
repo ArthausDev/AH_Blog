@@ -48,6 +48,7 @@ const ContentSection = ({ item }) => {
           ))}{" "}
         </p>
       )}
+     
     </div>
   )
 }

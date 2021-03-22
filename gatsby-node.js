@@ -20,6 +20,7 @@ exports.createPages = async ({ graphql, actions }) => {
       allMarkdownRemark {
         edges {
           node {
+            html
             frontmatter {
               content {
                 sectionHeading
@@ -63,7 +64,7 @@ exports.createPages = async ({ graphql, actions }) => {
   //console.log("here", JSON.stringify(result, null, 4))
   result.data.allMarkdownRemark.edges.forEach(({ node }) => {
     if (node.fields.sourceName === "blogPages") {
-      // console.log("path for blog", node)
+       console.log("path for blog", node)
 
       createPage({
         path: node.fields.slug,
