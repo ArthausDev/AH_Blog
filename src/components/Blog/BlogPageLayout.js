@@ -10,6 +10,7 @@ import styles from "./blog.module.scss"
 import DefaultAvatar from "../../images/staffAvatars/anyone.jpg"
 import CallumAvatar from "../../images/staffAvatars/Callum.png"
 import EdAvatar from "../../images/staffAvatars/Ed.png"
+import FayeAvatar from '../../images/staffAvatars/Faye.png'
 import HasanAvatar from "../../images/staffAvatars/Hasan.png"
 import MatthewAvatar from "../../images/staffAvatars/Matthew.png"
 import RoxyAvatar from "../../images/staffAvatars/Roxy.png"
@@ -62,6 +63,11 @@ const BlogPageLayout = ({ pageContext }) => {
       avatarImgSrc = EdAvatar
       avatarBkgColour = avatarBkgColourList.burgundy
       authorLastname = "GarButt"
+      break
+    case "Faye":
+      avatarImgSrc = FayeAvatar
+      avatarBkgColour = avatarBkgColourList.green
+      authorLastname = "Parker"
       break
     case "Hasan":
       avatarImgSrc = HasanAvatar
