@@ -137,16 +137,31 @@ collections:
             ],
         }
       - {
-          name: contactSection, 
-          label: Contact Section, 
+          name: contactSection,
+          label: Contact Section,
           widget: Object,
-          required: false, 
+          required: false,
           fields:
             {
-              {name: contactLinkIntro, label: Paragraph above contact link, widget: string, required: false}
-              {name: contactLinkLabel, label: Contact Link Label, widget: string, required: false}
-              {name: contactLinkUrl, label: Contact Link Url, widget: string, required: false}
-            }
+              {
+                name: contactLinkIntro,
+                label: Paragraph above contact link,
+                widget: string,
+                required: false,
+              },
+              {
+                name: contactLinkLabel,
+                label: Contact Link Label,
+                widget: string,
+                required: false,
+              },
+              {
+                name: contactLinkUrl,
+                label: Contact Link Url,
+                widget: string,
+                required: false,
+              },
+            },
         }
       - {
           name: body,
