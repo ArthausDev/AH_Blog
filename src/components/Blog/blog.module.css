@@ -34,6 +34,10 @@
   color: #42413a;
 }
 
+.section p {
+  padding: 15px 0;
+}
+
 .sharepostSection {
   text-transform: uppercase;
   padding-top: 20px;

@@ -36,6 +36,9 @@ $avatarWidth: 15%;
   max-width: 700px;
   margin: 0 auto;
   color: $darkGray;
+  p {
+    padding:15px 0;
+  }
 }
 
 .sharepostSection {
