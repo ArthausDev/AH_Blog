@@ -92,5 +92,5 @@ content:
       - asteriskText: false
         paragraph: Great design, delivers great results!
     sectionLinks:
-      - {}
+      - linkLabel: Let's Talk!
 ---
