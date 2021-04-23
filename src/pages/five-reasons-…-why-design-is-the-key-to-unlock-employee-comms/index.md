@@ -25,6 +25,7 @@ content:
           your brand on other channels and media, making the message truly your
           own. "
     sectionImages: []
+    sectionHeadingIcon: 5reason-why-design-is-key-02.png
   - sectionHeading: 2.	It’s about making a Connection
     sectionParagraphs:
       - asteriskText: false
@@ -40,6 +41,7 @@ content:
           far greater. Even just a scan read of the material will instantly
           convey the important information.
     sectionImages: []
+    sectionHeadingIcon: 5reason-why-design-is-key-03.png
   - sectionHeading: 3.	It’s about that First Impression
     sectionParagraphs:
       - asteriskText: false
@@ -52,6 +54,7 @@ content:
           getting buy in, requires another level of interaction and the first
           impression is where it all begins.
     sectionImages: []
+    sectionHeadingIcon: 5reason-why-design-is-key-04.png
   - sectionHeading: "4.\tIt’s about Stickability "
     sectionParagraphs:
       - asteriskText: false
@@ -66,6 +69,7 @@ content:
           and design enables the message to resonate, be understood and be
           absorbed.
     sectionImages: []
+    sectionHeadingIcon: 5reason-why-design-is-key-05.png
   - sectionHeading: 5.	It’s about the Journey
     sectionParagraphs:
       - asteriskText: false
@@ -78,6 +82,7 @@ content:
           interactive PDF, will the user be reading it like a book or flipping
           back and forth between the content and an Appendix for example.  "
     sectionImages: []
+    sectionHeadingIcon: 5reason-why-design-is-key-06.png
   - sectionParagraphs:
       - asteriskText: false
         paragraph: In the last year employee communications have had to adjust
