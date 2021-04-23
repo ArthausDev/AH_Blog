@@ -24,6 +24,9 @@ exports.createPages = async ({ graphql, actions }) => {
             frontmatter {
               content {
                 sectionHeading
+                sectionHeadingIcon{
+                  publicURL
+                }
                 sectionImages {
                   image {
                     publicURL

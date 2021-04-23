@@ -2,6 +2,7 @@ import React, { Fragment } from "react"
 import ImgCard from "../ImgCard/ImgCard"
 
 import styles from "./blog.module.scss"
+import SectionHeading from "../SectionHeading/SectionHeading"
 const mapImages = (sectionImages)=>{
 return  sectionImages.map((img, index) => (
           <ImgCard
@@ -13,11 +14,11 @@ return  sectionImages.map((img, index) => (
           />))
 }
 const ContentSection = ({ item }) => {  
- 
+  //console.log('item',item)
   return (
     <div className={styles.section}> 
     {/* For Section Heading if exist */}
-      {item.sectionHeading !== null && <h3 className={styles.sectionHeading}>{item.sectionHeading}</h3>}
+      {item.sectionHeading !== null && <SectionHeading heading={item.sectionHeading} iconUrl={item.sectionHeadingIcon?.publicURL}/>}
     {/* For Section paragraph if exist */}
       {item.sectionParagraphs !== null && item.sectionParagraphs.length !==0 && item.sectionParagraphs.map((paragraph, index) => (
           <p

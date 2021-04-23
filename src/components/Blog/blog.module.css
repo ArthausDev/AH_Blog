@@ -53,6 +53,11 @@
   font-weight: bold;
 }
 
+.sectionHeadingIcon {
+  max-width: 100px;
+  margin-right: 20px;
+}
+
 .shareBtns {
   margin-left: 16px;
 }
