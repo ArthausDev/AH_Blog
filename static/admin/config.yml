@@ -66,6 +66,12 @@ collections:
                 required: false,
               },
               {
+                name: sectionHeadingIcon,
+                label: Section Heading Icon,
+                widget: image,
+                required: false,
+              },
+              {
                 name: sectionParagraphs,
                 label: Section Paragraphs,
                 widget: list,
