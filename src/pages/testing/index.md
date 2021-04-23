@@ -27,6 +27,8 @@ content:
           understanding for everyone of how products, services and business
           elements are categorized and connected.  Spending time at this stage
           will protect the costs, time, and scope goals. "
+    sectionHeading: This heading has icon
+    sectionHeadingIcon: 5reason-why-design-is-key-02.png
 contactLinkIntro: Have sth in your mind? contact us below
 contactLinkLabel: Talk to us
 contactLinkUrl: https//arthaus.co.uk
