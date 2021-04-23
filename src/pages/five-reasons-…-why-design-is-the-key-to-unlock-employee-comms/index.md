@@ -24,8 +24,7 @@ content:
           to the comms, the overall look and feel must reflect how you portray
           your brand on other channels and media, making the message truly your
           own. "
-    sectionImages:
-      - image: 5reason-why-design-is-key-02.png
+    sectionImages: []
   - sectionHeading: 2.	It’s about making a Connection
     sectionParagraphs:
       - asteriskText: false
@@ -40,8 +39,7 @@ content:
           will be the same but the employee take away from the learning will be
           far greater. Even just a scan read of the material will instantly
           convey the important information.
-    sectionImages:
-      - image: 5reason-why-design-is-key-03.png
+    sectionImages: []
   - sectionHeading: 3.	It’s about that First Impression
     sectionParagraphs:
       - asteriskText: false
@@ -53,8 +51,7 @@ content:
         paragraph: Employees will always read something that this is compulsory but
           getting buy in, requires another level of interaction and the first
           impression is where it all begins.
-    sectionImages:
-      - image: 5reason-why-design-is-key-04.png
+    sectionImages: []
   - sectionHeading: "4.\tIt’s about Stickability "
     sectionParagraphs:
       - asteriskText: false
@@ -68,8 +65,7 @@ content:
           another task to an engaging task. Stickability adds a sense of purpose
           and design enables the message to resonate, be understood and be
           absorbed.
-    sectionImages:
-      - image: 5reason-why-design-is-key-05.png
+    sectionImages: []
   - sectionHeading: 5.	It’s about the Journey
     sectionParagraphs:
       - asteriskText: false
@@ -81,8 +77,7 @@ content:
         paragraph: "Think about how the information will be used. For example – in an
           interactive PDF, will the user be reading it like a book or flipping
           back and forth between the content and an Appendix for example.  "
-    sectionImages:
-      - image: 5reason-why-design-is-key-06.png
+    sectionImages: []
   - sectionParagraphs:
       - asteriskText: false
         paragraph: In the last year employee communications have had to adjust
