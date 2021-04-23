@@ -20,6 +20,7 @@ content:
     sectionLinks:
       - linkLabel: Accessibility
         linkUrl: https://google.com
+    sectionHeading: This heading has no icon in front.
   - sectionParagraphs:
       - asteriskText: false
         paragraph: "within the creative brief.  The wireframes facilitate an early
