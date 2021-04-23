@@ -13,6 +13,7 @@ content:
       - linkLabel: Desire Paths
         linkUrl: https://arthaus.co.uk
     sectionHeadingIcon: 5reason-why-design-is-key-02.png
+    sectionHeading: Testing Heading
   - sectionParagraphs:
       - asteriskText: false
         paragraph: and
