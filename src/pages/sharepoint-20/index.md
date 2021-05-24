@@ -113,7 +113,9 @@ content:
           scope, design, and build your entire SharePoint system for you.
           Forethought and experience are key for a successful user focused
           intranet setup. "
-    sectionLinks: []
-contactLinkLabel: "Talk to us! "
-contactLinkUrl: mailto:think@arthaus.co.uk
+    sectionLinks:
+      - linkLabel: "Talk to us! "
+        linkUrl: mailto:think@arthaus.co.uk
+contactLinkLabel: ""
+contactLinkUrl: ""
 ---
