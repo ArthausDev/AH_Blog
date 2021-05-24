@@ -34,6 +34,8 @@ content:
         paragraph: "This can only serve to strengthen the connection with all your
           users. "
     sectionHeadingIcon: sharepoint-20th-anniversary-02.png
+    sectionImages:
+      - {}
   - sectionHeading: "2. Personalise it   "
     sectionParagraphs:
       - asteriskText: false
@@ -51,6 +53,8 @@ content:
           location, region, or even areas of professional interests allow you to
           target information and news stories directly to those users.  "
     sectionHeadingIcon: sharepoint-20th-anniversary-03.png
+    sectionImages:
+      - {}
   - sectionHeading: "3. From A to Z "
     sectionParagraphs:
       - asteriskText: false
@@ -72,6 +76,8 @@ content:
           different options that can be explored for small, medium, and
           enterprise level navigation systems.
     sectionHeadingIcon: sharepoint-20th-anniversary-04.png
+    sectionImages:
+      - {}
   - sectionHeading: "4. Everybody is a content editor "
     sectionParagraphs:
       - asteriskText: false
@@ -87,6 +93,8 @@ content:
           for each version of SharePoint. Investing in these customised
           solutions will transform the user experience. "
     sectionHeadingIcon: sharepoint-20th-anniversary-05.png
+    sectionImages:
+      - {}
   - sectionHeading: "5. Content is king "
     sectionParagraphs:
       - asteriskText: false
@@ -100,6 +108,8 @@ content:
           company social media feeds; important sports directories; and news –
           both business and employee. "
     sectionHeadingIcon: sharepoint-20th-anniversary-06.png
+    sectionImages:
+      - {}
   - sectionParagraphs:
       - asteriskText: false
         paragraph: "If you are looking to make your Intranet really work for your
