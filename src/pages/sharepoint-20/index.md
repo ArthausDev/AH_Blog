@@ -35,7 +35,7 @@ content:
           users. "
     sectionHeadingIcon: sharepoint-20th-anniversary-02.png
     sectionImages:
-      - {}
+      - image: sharepoint-20th-anniversary-07.png
   - sectionHeading: "2. Personalise it   "
     sectionParagraphs:
       - asteriskText: false
@@ -54,7 +54,7 @@ content:
           target information and news stories directly to those users.  "
     sectionHeadingIcon: sharepoint-20th-anniversary-03.png
     sectionImages:
-      - {}
+      - image: sharepoint-20th-anniversary-08.png
   - sectionHeading: "3. From A to Z "
     sectionParagraphs:
       - asteriskText: false
@@ -77,7 +77,7 @@ content:
           enterprise level navigation systems.
     sectionHeadingIcon: sharepoint-20th-anniversary-04.png
     sectionImages:
-      - {}
+      - image: sharepoint-20th-anniversary-09.png
   - sectionHeading: "4. Everybody is a content editor "
     sectionParagraphs:
       - asteriskText: false
@@ -94,7 +94,7 @@ content:
           solutions will transform the user experience. "
     sectionHeadingIcon: sharepoint-20th-anniversary-05.png
     sectionImages:
-      - {}
+      - image: sharepoint-20th-anniversary-10.png
   - sectionHeading: "5. Content is king "
     sectionParagraphs:
       - asteriskText: false
@@ -109,7 +109,7 @@ content:
           both business and employee. "
     sectionHeadingIcon: sharepoint-20th-anniversary-06.png
     sectionImages:
-      - {}
+      - image: sharepoint-20th-anniversary-11.png
   - sectionParagraphs:
       - asteriskText: false
         paragraph: "If you are looking to make your Intranet really work for your
