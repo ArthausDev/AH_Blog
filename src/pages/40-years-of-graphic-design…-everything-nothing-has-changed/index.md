@@ -1,6 +1,6 @@
 ---
 title: "40 years of Graphic Design…  everything & nothing has changed "
-heroImg: 40-years-of-graphic-design-v2-01.png
+heroImg: 40-years-of-graphic-design-v2-01-1-.png
 author: MarkL
 publishedDate: 12 AUG 2021
 content:
