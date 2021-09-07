@@ -1,11 +1,13 @@
 ---
 title: Testing
+metadataTitle: testing
 heroImg: 8f56ba474ae1ae88bcb2d9c43f070517.jpg
 author: Thao
 content:
   - sectionParagraphs:
       - asteriskText: false
-        paragraph: "Wireframes are the foundation for any web design projects, they
+        paragraph:
+          "Wireframes are the foundation for any web design projects, they
           enable the functionality, creative design and branding to be addressed
           together.  As part of the process, the team will of course, have
           considered "
@@ -23,7 +25,8 @@ content:
     sectionHeading: This heading has no icon in front.
   - sectionParagraphs:
       - asteriskText: false
-        paragraph: "within the creative brief.  The wireframes facilitate an early
+        paragraph:
+          "within the creative brief.  The wireframes facilitate an early
           understanding for everyone of how products, services and business
           elements are categorized and connected.  Spending time at this stage
           will protect the costs, time, and scope goals. "
@@ -33,15 +36,16 @@ contactLinkIntro: Have sth in your mind? contact us below
 contactLinkLabel: Talk to us
 contactLinkUrl: https//arthaus.co.uk
 ---
+
 Hello
 
-this should be the [link](https://www.arthaus.co.uk) here 
+this should be the [link](https://www.arthaus.co.uk) here
 
 List - un order
 
-* a
-* b
-* b
+- a
+- b
+- b
 
 List - order
 

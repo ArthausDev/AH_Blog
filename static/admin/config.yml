@@ -16,6 +16,7 @@ collections:
     create: true
     fields:
       - { name: title, label: Title }
+      - { name: metadataTitle, label: Meta Data Title for Accessibility & SEO, widget: string, required: true}
       - { name: heroImg, label: Hero Image, widget: image }
       - {
           name: author,

@@ -21,7 +21,7 @@ const Header = () => {
           <a href="https://www.arthaus.co.uk/">
             <ImgCard
               src={Logo}
-              alt="Arthaus logo"
+              alt="Arthaus logo - Home"
               className={styles.logoWrap}
             />
           </a>

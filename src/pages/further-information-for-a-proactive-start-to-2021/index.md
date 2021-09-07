@@ -1,5 +1,6 @@
 ---
 title: Further Information for A Proactive start to 2021!
+metadataTitle: Further Information for a Proactive start
 heroImg: proactive-thriving-hero.jpg
 author: Not in the list
 guestName: Leigh McKay and Abigail Ireland
@@ -8,7 +9,8 @@ guestAvatar: 8.png
 content:
   - sectionParagraphs:
       - asteriskText: false
-        paragraph: Leigh McKay is a Wellbeing Consultant and Mental Health First Aid
+        paragraph:
+          Leigh McKay is a Wellbeing Consultant and Mental Health First Aid
           Instructor working with corporate businesses, SME’s, schools, the
           local community encouraging lifestyles to support healthy choices and
           overall wellbeing.
@@ -18,7 +20,8 @@ content:
         linkUrl: https://www.linkedin.com/in/leigh-mckay-ba570635/
   - sectionParagraphs:
       - asteriskText: false
-        paragraph: "Abigail Ireland is a Peak Performance Strategist, working with
+        paragraph:
+          "Abigail Ireland is a Peak Performance Strategist, working with
           ambitious executives and teams looking to achieve high levels of
           performance and productivity on a sustainable basis. "
     sectionLinks:
@@ -35,7 +38,8 @@ content:
   - sectionHeading: References
     sectionParagraphs:
       - asteriskText: false
-        paragraph: "(1)\tDepression Statistics: Mind responds to ONS figures showing
+        paragraph:
+          "(1)\tDepression Statistics: Mind responds to ONS figures showing
           impact of coronavirus on people's mental health | Mind, the mental
           health charity"
     sectionLinks:

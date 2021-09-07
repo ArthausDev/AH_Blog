@@ -1,5 +1,6 @@
 ---
 title: The Pugilist, the Pivot, and the Plan of Action
+metadataTitle: Plan of action
 heroImg: the-pugilist-banner.jpg
 author: Not in the list
 guestName: Bruce Dodworth
@@ -9,17 +10,20 @@ publishedDate: 12th Feb 2021
 content:
   - sectionParagraphs:
       - asteriskText: false
-        paragraph: Much is written in business books and spoken in boardrooms about
+        paragraph:
+          Much is written in business books and spoken in boardrooms about
           strategy. Put simply, strategy is an articulation of the direction and
           focus of a business. It certainly makes sense to have a plan of
           action, no matter what size your business or the nature of its work.
       - asteriskText: false
-        paragraph: What strategy does a small, professional services firm like Sea Glass
+        paragraph:
+          What strategy does a small, professional services firm like Sea Glass
           have? And how might my experience help others?
   - sectionHeading: Strategy on the fly
     sectionParagraphs:
       - asteriskText: false
-        paragraph: Sea Glass is 15 years old and I owe its survival and success to a
+        paragraph:
+          Sea Glass is 15 years old and I owe its survival and success to a
           strategy developed at speed and in the face of some scepticism.
       - asteriskText: false
         paragraph: "Let me explain. A former colleague from Mullen in Boston was
@@ -37,7 +41,8 @@ content:
           applying my knowledge, expertise and experience to uncover lucrative
           opportunities.”
       - asteriskText: false
-        paragraph: "The strategy is about not standing still. Not being wedded to a
+        paragraph:
+          "The strategy is about not standing still. Not being wedded to a
           static list of products and services. It is about responding to the
           marketplace, different situations, and the demands of customers. It is
           being open-minded and flexible enough to spot and implement change. "
@@ -50,24 +55,28 @@ content:
   - sectionHeading: Tell them about the money, honey
     sectionParagraphs:
       - asteriskText: false
-        paragraph: The lucrative aspect of the strategy is also key. The goal is premium
+        paragraph:
+          The lucrative aspect of the strategy is also key. The goal is premium
           consulting and communications work that will stretch, deliver value
           and pay the bills. Many independent consultants charge worryingly low
           day rates and sell highly commoditised work. Isn’t this called a race
           to the bottom?
       - asteriskText: false
-        paragraph: "That does not mean everything is all about money. Sea Glass does
+        paragraph:
+          "That does not mean everything is all about money. Sea Glass does
           regular pro bono work for charities – one notable project was with
           Arthaus on the rebranding of charity NurseAid. Sea Glass also recently
           wrote a website for the Down’s Syndrome charity, T-21. "
   - sectionHeading: "A restless quest "
     sectionParagraphs:
       - asteriskText: false
-        paragraph: "In practical terms, Sea Glass has gone through three major pivots
+        paragraph:
+          "In practical terms, Sea Glass has gone through three major pivots
           since 2006, with some considerable overlap between them and over £3m
           in consulting fees invoiced during this time. "
       - asteriskText: false
-        paragraph: "Pitch Consultancy & Training: In the beginning, Sea Glass was almost
+        paragraph:
+          "Pitch Consultancy & Training: In the beginning, Sea Glass was almost
           solely dedicated to helping the CEOs of PR agencies win large new
           clients, thus enabling them to grow. Clients included 15 of the top-20
           UK PR firms and all the global networked agencies. It was a great
@@ -77,7 +86,8 @@ content:
           Saturation point was reached, and this type of consulting work began
           to wane after 7-8 years. "
       - asteriskText: false
-        paragraph: "PR Agency Services: Out of the blue, a PR agency client asked Sea
+        paragraph:
+          "PR Agency Services: Out of the blue, a PR agency client asked Sea
           Glass to run a piece of retained business which did not fit its
           portfolio. This kicked-off a 3-5 year move towards delivering classic
           media relations and content, messaging, branding, etc. Retained
@@ -87,7 +97,8 @@ content:
           provided the reassurance of retainers, although margins were eroded by
           pricey freelance support. It’s also a highly competitive space."
       - asteriskText: false
-        paragraph: "Event Facilitation: This was opportunism and luck. In 2014, a London
+        paragraph:
+          "Event Facilitation: This was opportunism and luck. In 2014, a London
           PR agency asked Sea Glass to host and facilitate a journalist
           roundtable for its client, Sky. This mushroomed into more event-based
           hosting and facilitation. Today, Sea Glass works for almost all the
@@ -98,20 +109,23 @@ content:
   - sectionHeading: Creating the right culture
     sectionParagraphs:
       - asteriskText: false
-        paragraph: Having three different offerings in 15 years may not seem remarkable.
+        paragraph:
+          Having three different offerings in 15 years may not seem remarkable.
           However, it’s been a natural transition and without too much pain.
           Several of my independent consultant friends have been slow to respond
           to a changing marketplace, have a narrow offering, and lack a good
           network. I have also learned that, often, other people have more
           belief in you (and what you can do) than you have in yourself!
       - asteriskText: false
-        paragraph: "It is also crucial to have the right attitude to managing pressure
+        paragraph:
+          "It is also crucial to have the right attitude to managing pressure
           and responding to situations. Changing tack is not a weakness.
           Business is never definite. It's very complex and ever-changing.  As
           boxer Mike Tyson once said: “Everybody has a plan till they get
           punched in the face”. "
       - asteriskText: false
-        paragraph: In closing, I am reminded of the famous quote from Peter Drucker –
+        paragraph:
+          In closing, I am reminded of the famous quote from Peter Drucker –
           “Culture eats strategy for breakfast”. Culture is the environment in
           which a strategy lives and, ultimately, the people bringing it to life
           are the ones responsible for its success or its demise. When I think

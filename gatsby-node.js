@@ -44,6 +44,7 @@ exports.createPages = async ({ graphql, actions }) => {
                 }
               }
               title
+              metadataTitle
               heroImg {
                 publicURL
               }

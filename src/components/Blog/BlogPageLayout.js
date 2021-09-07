@@ -4,7 +4,8 @@ import PageTitle from "../PageTitle/PageTitle"
 import ImgCard from "../ImgCard/ImgCard"
 import ContentSection from "./ContentSection"
 import SharePost from "./SharePost"
-import Helmet from 'gatsby-plugin-react-helmet'
+
+// import Helmet from 'gatsby-plugin-react-helmet'
 
 import styles from "./blog.module.scss"
 import DefaultAvatar from "../../images/staffAvatars/anyone.jpg"
@@ -29,9 +30,9 @@ const BlogPageLayout = ({ pageContext }) => {
   let avatarImgSrc = DefaultAvatar
   const { blogItem } = pageContext //object destructuring
  
-  console.log('blogItem',blogItem)
+ // console.log('blogItem',blogItem)
  
-  const { title, content, heroImg, author ,company,guestName,guestAvatar,publishedDate,contactLinkIntro,contactLinkLabel,contactLinkUrl} = blogItem.frontmatter //object destructuring
+  const { title, content, heroImg, author ,company,guestName,guestAvatar,publishedDate,contactLinkIntro,contactLinkLabel,contactLinkUrl,metadataTitle} = blogItem.frontmatter //object destructuring
   const avatarBkgColourList = {
     green: "#AFB744",
     burgundy: "#8E5562",
@@ -125,9 +126,9 @@ const BlogPageLayout = ({ pageContext }) => {
   if (author.toUpperCase() === "MARKB" || author.toUpperCase() === "MARKL") {
     authorFullName = `MARK ${authorLastname}`
   }
- 
+  
   return (
-    <Layout>
+    <Layout metadataTitle={metadataTitle ? `${metadataTitle} - Arthaus Blog` : 'Arthaus Blog'}>
       <div className={styles.heroWrap}>
         <ImgCard src={heroImg.publicURL} className={styles.hero} alt="hero" />
         <ImgCard
