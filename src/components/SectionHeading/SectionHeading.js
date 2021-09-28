@@ -5,7 +5,7 @@ const SectionHeading = ({heading,iconUrl}) => {
         <h2 className={`${styles.sectionHeading}`} style={iconUrl ? {display:'flex',alignItems:'center'}:null}>
            {iconUrl && 
             <img 
-                alt={`${heading} icon`} 
+                alt=''
                 src={iconUrl}
                 className={styles.sectionHeadingIcon}
             />} 
