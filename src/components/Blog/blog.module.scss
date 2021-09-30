@@ -36,8 +36,9 @@ $avatarWidth: 15%;
   max-width: 700px;
   margin: 0 auto;
   color: $darkGray;
+
   p {
-    padding:15px 0;
+    padding: 15px 0;
   }
 }
 
@@ -54,7 +55,9 @@ $avatarWidth: 15%;
 
 .sectionHeading {
   font-weight: bold;
+  font-family: $fontBold;
 }
+
 .sectionHeadingIcon {
   max-width: 100px;
   margin-right: 20px;
@@ -144,4 +147,3 @@ $avatarWidth: 15%;
 .twitterIcon {
   top: -1px;
 }
-
