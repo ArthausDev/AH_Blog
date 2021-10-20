@@ -1,5 +1,5 @@
 import React from "react"
-import styles from "./footer.module.scss"
+import styles from "./footer.module.css"
 
 import FBImg from '../../images/footer/dec2020/facebook.png'
 import InstagramImg from '../../images/footer/dec2020/instagram.png'

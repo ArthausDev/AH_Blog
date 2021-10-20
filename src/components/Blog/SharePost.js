@@ -11,7 +11,7 @@ import {
 } from "@fortawesome/free-brands-svg-icons"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 
-import styles from "./blog.module.scss"
+import styles from "./blog.module.css"
 const SharePost = () => {
   const [windowLocation, setWindowLocation] = useState(null)
   useEffect(() => {

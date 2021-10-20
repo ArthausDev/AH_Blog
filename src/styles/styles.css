@@ -1,5 +1,5 @@
-@import './_reset.scss';
-@import "./_variables.scss";
+@import './_reset.css';
+/* @import "./_variables.scss"; */
 
 html {
   font-size: 16px;
@@ -7,7 +7,7 @@ html {
   line-height: 1.5 !important;
   box-sizing: border-box;
   font-weight: 400;
-  color: $lightGray;
+  color: #878679;
   
 }
 

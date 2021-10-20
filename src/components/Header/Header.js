@@ -1,13 +1,14 @@
 import React, { useState } from "react"
 
 import Logo from "../../images/header/Logo.png"
-import styles from "./header.module.scss"
+import styles from "./header.module.css"
 import MenuItem from "./MenuItem"
 import ImgCard from "../ImgCard/ImgCard"
 import BlogIcon from "../../images/insights/icon_blog.png"
 import InspirationIcon from "../../images/insights/icon_inspiration.png"
 import SocialIcon from "../../images/insights/icon_socials.png"
 import AllIcon from "../../images/insights/icon_all.png"
+import CareerIcon from '../../images/header/careersIcon.png'
 const Header = () => {
   const [menuOpened, setMenuOpened] = useState(false)
 
@@ -47,7 +48,20 @@ const Header = () => {
           <MenuItem
             url="https://www.arthaus.co.uk/about/about.html"
             text="ABOUT"
-          />
+            subList={true}
+          >
+            <ul className={`${styles.insightsList} ${styles.aboutList}`}>
+              <li className={styles.insightsListItem}>
+                <a href="https://www.arthaus.co.uk/about/careers.html">
+                  <img
+                    alt=""
+                    className={styles.insightsItemIcon}
+                    src={CareerIcon}
+                  />
+                  <span>Careers</span>
+                </a>
+              </li></ul>
+          </MenuItem>
           <MenuItem
             url="https://www.arthaus.co.uk/expertise/expertise.html"
             text="EXPERTISE"

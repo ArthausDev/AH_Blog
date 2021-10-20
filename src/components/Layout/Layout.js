@@ -1,8 +1,8 @@
 import React from "react"
 import Header from "../Header/Header"
 import Footer from "../Footer/Footer"
-import "../../styles/styles.scss"
-import styles from "./layout.module.scss"
+import "../../styles/styles.css"
+import styles from "./layout.module.css"
 import SEO from '../SEO/SEO'
 
 function Layout({ ...props }) {

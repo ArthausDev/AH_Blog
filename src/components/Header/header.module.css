@@ -175,6 +175,9 @@
     width: 160px;
     display: none;
   }
+  .insightsItem .insightsList.aboutList {
+    right: 242px;
+  }
 }
 
 @media only screen and (min-width: 760px) {

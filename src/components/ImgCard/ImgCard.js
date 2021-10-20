@@ -1,5 +1,5 @@
 import React from "react"
-import styles from "./ImgCard.module.scss"
+import styles from "./ImgCard.module.css"
 const ImgCard = ({ src, alt, className, caption, bkgColour }) => {
   return (
     <figure

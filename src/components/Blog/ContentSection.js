@@ -1,7 +1,7 @@
 import React, { Fragment } from "react"
 import ImgCard from "../ImgCard/ImgCard"
 
-import styles from "./blog.module.scss"
+import styles from "./blog.module.css"
 import SectionHeading from "../SectionHeading/SectionHeading"
 const mapImages = (sectionImages)=>{
 return  sectionImages.map((img, index) => (

@@ -1,5 +1,5 @@
 import React from "react"
-import styles from "./pageTitle.module.scss"
+import styles from "./pageTitle.module.css"
 const PageTitle = ({ title, author,company,guest,publishedDate }) => {
   return (
     <div className={styles.titleContainer}>

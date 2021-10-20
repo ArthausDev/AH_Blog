@@ -7,7 +7,7 @@ import SharePost from "./SharePost"
 
 // import Helmet from 'gatsby-plugin-react-helmet'
 
-import styles from "./blog.module.scss"
+import styles from "./blog.module.css"
 import DefaultAvatar from "../../images/staffAvatars/anyone.jpg"
 import CallumAvatar from "../../images/staffAvatars/Callum.png"
 import EdAvatar from "../../images/staffAvatars/Ed.png"
