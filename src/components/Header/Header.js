@@ -30,6 +30,7 @@ const Header = () => {
             className={`${styles.menuBtn} ${menuOpened && styles.menuOpened}`}
             onClick={menuClickHandle}
             onKeyPress={() => {
+              //testing
               console.log("press key")
             }}
           >
