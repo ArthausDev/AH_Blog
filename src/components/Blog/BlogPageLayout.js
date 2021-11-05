@@ -154,18 +154,16 @@ const BlogPageLayout = ({ pageContext }) => {
         className={styles.section}
         dangerouslySetInnerHTML={{ __html: blogItem.html }}
       /> : null}
-      {contactLinkIntro!==null && contactLinkLabel!==null && contactLinkUrl!==null && <div className={styles.section}>
-          
-          <div style={{padding:'15px 0'}}>
+      <div className={styles.section}>         
+        {contactLinkIntro!==null &&  <div style={{padding:'15px 0'}}>
             {contactLinkIntro}
-          </div>
+          </div>}
           <div className={styles.sectionLinksWrap}>         
-            <a className={styles.sectionLink} href={contactLinkUrl}>
-              {contactLinkLabel}
-            </a>
-        
+            <a className={styles.sectionLink} href={contactLinkUrl!==null ? contactLinkUrl :'mailto:think@arthaus.co.uk'}>
+              {contactLinkLabel!==null ? contactLinkLabel : "Let's talk"}
+            </a>        
         </div>
-        </div>}
+     </div>
       <SharePost pageTitle={title} />
     </Layout>
   )
