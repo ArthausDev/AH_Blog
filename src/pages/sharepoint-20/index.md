@@ -120,6 +120,6 @@ content:
           and experience are key for a successful user focused intranet setup.
     sectionLinks: []
 contactLinkIntro: ""
-contactLinkLabel: ""
-contactLinkUrl: ""
+contactLinkLabel: Let's talk
+contactLinkUrl: mailto:think@arthaus.co.uk
 ---
