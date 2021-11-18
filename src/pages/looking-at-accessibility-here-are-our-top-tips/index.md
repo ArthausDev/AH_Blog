@@ -103,7 +103,5 @@ content:
           and Arthaus fully supports my desire to learn more and enable the team
           deliver better solutions. So, if I have inspired you to act but you
           are not sure where to start. "
-    sectionLinks:
-      - linkLabel: Let's talk
-        linkUrl: think@arthaus.co.uk
+    sectionLinks: []
 ---
