@@ -10,8 +10,7 @@ publishedDate: 03 DEC 2020
 content:
   - sectionParagraphs:
       - asteriskText: false
-        paragraph:
-          "Marketing is crucial to the success of every business, and never
+        paragraph: "Marketing is crucial to the success of every business, and never
           more so, than in difficult economic times.  Digital marketing has for
           some time, been a fundamental strand of any good strategy.  In fact,
           it has now grown in efficacy, that we no longer really distinguish
@@ -19,8 +18,7 @@ content:
           marketing!  There are very few businesses who do not operate in some
           shape or form within the digital world.  "
       - asteriskText: false
-        paragraph:
-          The options are vast and continually increasing in the digital arena
+        paragraph: The options are vast and continually increasing in the digital arena
           and choice is always great. The amazing thing about digital marketing
           is it accessible to every business on every budget.  However, for
           results, it is critical to select the right platform and strategy for
@@ -33,39 +31,34 @@ content:
           specific - Are you trying to increase your online conversion rate?
           Drive customers to your shop?  Or develop your brand? "
       - asteriskText: false
-        paragraph:
-          Secondly, who are you trying to talk to?  It is vital to understand
+        paragraph: Secondly, who are you trying to talk to?  It is vital to understand
           your audience.  The days of postcode, age and gender are gone.  You
           need to really understand your audience.  What do they like? Where do
           they hang out (digitally and physically)? Who are they ‘friends’ with?
           Who do they admire? What line of work are they in? This is called
           their ‘Persona’.
       - asteriskText: false
-        paragraph:
-          A complete understanding of our customers and potential customers
+        paragraph: A complete understanding of our customers and potential customers
           journey is required to develop a plan, that talks to them in the
           correct tone, at the correct time and with the most appropriate
           method.  This is crucial for every business no matter what size they
           are.
       - asteriskText: false
-        paragraph:
-          "This vital preparation will ensure your marketing initiatives will
+        paragraph: "This vital preparation will ensure your marketing initiatives will
           work as hard as possible for you.  Niche targeting and identifying the
           right digital method for you, will also, most importantly, ensure your
           budget is not wasted and your conversions are high. "
   - sectionHeading: The Digital Daze
     sectionParagraphs:
       - asteriskText: false
-        paragraph:
-          So, with clear objectives and ‘Personas’ you can start to formulate
+        paragraph: So, with clear objectives and ‘Personas’ you can start to formulate
           your marketing.  Here is a brief rundown of digital marketing methods
           with their pros and cons, for the development of a robust and
           successful digital marketing strategy.
   - sectionHeading: Websites
     sectionParagraphs:
       - asteriskText: false
-        paragraph:
-          Websites are your shop window, even if you are not an ecommerce
+        paragraph: Websites are your shop window, even if you are not an ecommerce
           site!  It is a brochure to promote your brand and business, what you
           sell and what services you offer.  Websites are a powerful tool for
           lead generation, remarketing and vital for being seen on google with
@@ -76,8 +69,7 @@ content:
   - sectionHeading: Social Media
     sectionParagraphs:
       - asteriskText: false
-        paragraph:
-          This has become an incredibly powerful tool over the past few years
+        paragraph: This has become an incredibly powerful tool over the past few years
           for businesses around the world.  Currently in the UK Facebook alone
           has over 44 Million users.  Can you imagine being able to target 44
           Million users with budgets as small as £100 a month?  There are no TV
@@ -86,16 +78,14 @@ content:
   - sectionHeading: Facebook
     sectionParagraphs:
       - asteriskText: false
-        paragraph:
-          "People use Facebook to stay connected, to discover what is going on
+        paragraph: "People use Facebook to stay connected, to discover what is going on
           in the world, and to share and express what matters to them.  This is
           an extremely powerful tool for B2C marketing and extremely cost
           effective. "
   - sectionHeading: Instagram
     sectionParagraphs:
       - asteriskText: false
-        paragraph:
-          Instagram is a photo sharing app which allows users to assign filters
+        paragraph: Instagram is a photo sharing app which allows users to assign filters
           to photos and share them with followers.  With more than 25 million
           businesses are actively using Instagram, to market to their audience
           as millions of consumers use it to shop.  The visual content is
@@ -133,8 +123,7 @@ content:
   - sectionHeading: Measurement is a Must!
     sectionParagraphs:
       - asteriskText: false
-        paragraph:
-          "So, you have picked your platform or combination of platforms now
+        paragraph: "So, you have picked your platform or combination of platforms now
           you need to make sure it is working for you.   I love the analytics
           capability digital platforms provide, real time results from your
           marketing campaign - how many people have seen it, clicked on it,
@@ -143,17 +132,13 @@ content:
   - sectionHeading: Conversion
     sectionParagraphs:
       - asteriskText: false
-        paragraph:
-          Ensure your investment is not wasted by creating suitable landing
+        paragraph: Ensure your investment is not wasted by creating suitable landing
           pages to optimise the conversion rates.  Understand your customers
           journey to you and serve them the content they are expecting.
       - asteriskText: false
-        paragraph:
-          "The digital marketing landscape is forever changing, if you would
+        paragraph: "The digital marketing landscape is forever changing, if you would
           like more information on what the best platform for your business is
           please get in touch and let us walk you through the most suitable
           digital solutions to achieve your business objectives. "
-    sectionLinks:
-      - linkLabel: Let's Talk
-        linkUrl: mailto:think@arthaus.co.uk
+    sectionLinks: []
 ---
