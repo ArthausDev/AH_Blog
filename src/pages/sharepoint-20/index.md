@@ -113,13 +113,11 @@ content:
           answer. Whether it is easy to edit webparts or list-based editing to
           control multiple elements in your system we have the knowledge and
           experience to help you get the most out of your SharePoint System.  "
-      - asteriskText: false
-        paragraph: "We can help you set up new content management options, build
-          webparts or help you right at the beginning of your journey. We can
-          scope, design, and build your entire SharePoint system for you.
-          Forethought and experience are key for a successful user focused
-          intranet setup. "
     sectionLinks: []
-contactLinkLabel: ""
-contactLinkUrl: ""
+contactLinkIntro: We can help you set up new content management options, build
+  webparts or help you right at the beginning of your journey. We can scope,
+  design, and build your entire SharePoint system for you. Forethought and
+  experience are key for a successful user focused intranet setup.
+contactLinkLabel: Let's talk
+contactLinkUrl: mailto:think@arthaus.co.uk
 ---
