@@ -1,8 +1,8 @@
 ---
-title: "Two years to the day"
+title: "Two years to the day "
 metadataTitle: Two years to the day
 heroImg: Two-Years-To-The-Day.png
-author: Mark Bowerman
+author: MarkB
 publishedDate: 19 MAR 2022
 content:
   - sectionParagraphs:
