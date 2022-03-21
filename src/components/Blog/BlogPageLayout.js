@@ -22,6 +22,8 @@ import MarkBAvatar from "../../images/staffAvatars/Mark-B.png"
 import MikeAvatar from '../../images/staffAvatars/Mike.png'
 import ClaireAvatar from "../../images/staffAvatars/Claire.png"
 import JoeAvatar from '../../images/staffAvatars/Joe.png'
+import DanAvatar from '../../images/staffAvatars/Dan.png'
+import RichardAvatar from '../../images/staffAvatars/Richard.png'
 
 
 
@@ -100,7 +102,16 @@ const BlogPageLayout = ({ pageContext }) => {
       avatarBkgColour = avatarBkgColourList.teal
       authorLastname = "Spiers"
       break
-   
+    case "Dan":
+        avatarImgSrc = MikeAvatar
+        avatarBkgColour = avatarBkgColourList.burgundy
+        authorLastname = "Spiers"
+        break
+    case "Richard":
+        avatarImgSrc = MikeAvatar
+        avatarBkgColour = avatarBkgColourList.teal
+        authorLastname = "Spiers"
+        break
     case "Roxy":
       avatarImgSrc = RoxyAvatar
       avatarBkgColour = avatarBkgColourList.green
