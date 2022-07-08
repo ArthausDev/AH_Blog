@@ -32,7 +32,7 @@ const socialMediaList = [
 
 function Footer() {
   const {
-    
+
     socialIconList,
     socialIconItem,
     instagramIcon,
@@ -55,13 +55,12 @@ function Footer() {
           <p>Oxon, RG9 2DE</p>
           <p>
             T:
-            <a href="tel:+441628487333"
-              > +44 (0)1628 487 333</a>
+            <a href="tel:+441491913867">+44 (0)1491 913 867</a>
           </p>
           <p>
             E:
             <a href="mailto:think@arthaus.co.uk"
-              > think@arthaus.co.uk</a>
+            > think@arthaus.co.uk</a>
           </p>
           <p className={styles.copyRight}>
             &#169; Arthaus
@@ -71,7 +70,7 @@ function Footer() {
       </div>
       <div className={styles.rightColumn}>
         <ul className={socialIconList}>
-         {socialMediaList &&
+          {socialMediaList &&
             socialMediaList
               .sort((a, b) => {
                 return a.order - b.order
@@ -79,34 +78,34 @@ function Footer() {
               .map((item, indx) => {
                 return (
                   <li key={indx} className={styles.socialIconItem}>
-                     <a  href={item.linkUrl}>
-                    <img alt='social icon' src={item.iconImg} className={styles.socialIconImg}/>
-                  </a>
+                    <a href={item.linkUrl}>
+                      <img alt='social icon' src={item.iconImg} className={styles.socialIconImg} />
+                    </a>
                   </li>
-                 
+
                 )
               })}
-           
+
         </ul>
-        <div className="text--white text--center" style={{fontSize:'11px',paddingTop:'13px'}}>
-            <a
-              href="https://www.arthaus.co.uk/documents/Privacy Policy.pdf"
-              rel="noopener noreferrer"
-              target="_blank"
-              >Privacy</a>
-            &#8194; | &#8194;
-            <a
-              href="https://www.arthaus.co.uk/privacy-terms-conditions.html"
-              rel="noopener noreferrer"
-              target="_blank"
-              >Terms &amp; Conditions
-            </a>          
+        <div className="text--white text--center" style={{ fontSize: '11px', paddingTop: '13px' }}>
+          <a
+            href="https://www.arthaus.co.uk/documents/Privacy Policy.pdf"
+            rel="noopener noreferrer"
+            target="_blank"
+          >Privacy</a>
+          &#8194; | &#8194;
+          <a
+            href="https://www.arthaus.co.uk/privacy-terms-conditions.html"
+            rel="noopener noreferrer"
+            target="_blank"
+          >Terms &amp; Conditions
+          </a>
         </div>
         <div className={styles.certifications}>
-          <ImgCard alt='BSI Logo' src={BSILogo} className={styles.bsiLogo}/>
-          <ImgCard alt='Cyber Logo' src={CyberLogo} className={styles.cyberLogo}/>
+          <ImgCard alt='BSI Logo' src={BSILogo} className={styles.bsiLogo} />
+          <ImgCard alt='Cyber Logo' src={CyberLogo} className={styles.cyberLogo} />
         </div>
-       
+
       </div>
     </footer>
   )
