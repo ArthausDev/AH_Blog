@@ -15,19 +15,18 @@ const socialMediaList = [
   {
     iconImg: FBImg,
     linkUrl: "https://www.facebook.com/ArtHaus.design/",
-    order: 4,
+    order: 3,
   },
   {
     iconImg: LinkedInImg,
     linkUrl: "https://www.linkedin.com/company/arthaus-visual-communications-/",
-    order: 2,
-  },
-  {
-    iconImg: InstagramImg,
-    linkUrl: "https://www.instagram.com/arthaus_design/",
     order: 1,
   },
-  { iconImg: TwitterImg, linkUrl: "https://twitter.com/arthaus", order: 3 },
+  {
+    iconImg: TwitterImg,
+    linkUrl: "https://twitter.com/arthaus",
+    order: 2
+  },
 ]
 
 function Footer() {
