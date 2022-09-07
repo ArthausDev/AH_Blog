@@ -72,6 +72,10 @@ const Header = () => {
             text="WORK"
           />
           <MenuItem
+            url="https://www.arthaus.co.uk/work/case-studies/case-studies.html"
+            text="CASE STUDY"
+          />
+          <MenuItem
             activePage
             url="https://www.arthaus.co.uk/insights/insights.html"
             text="INSIGHTS"
